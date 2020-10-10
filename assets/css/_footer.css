@@ -76,6 +76,9 @@
 	text-transform: uppercase;
 	font-weight: 900;
 }
+.ftr-menu ul li a:hover{
+	color: #C19E61;
+}
 
 .ftr-socials-media ul li{
 	display: inline-block;
@@ -109,6 +112,11 @@
 	display: inline-block;
 	vertical-align: baseline;
 }
+.ftr-top-logo a img{
+	display: block;
+	margin-bottom: 8px;
+}
+
 .ftr-rgt-logo{
 	position: absolute;
 	bottom: 35px;
