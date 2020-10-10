@@ -1,31 +1,33 @@
 
 
 
-
-.ftr-fancy-glry-inr ul li{
+.ftr-top-glry{
+	padding-bottom: 5px;
+}
+.ftr-top-glry-ctlr ul li{
 	float: left;
 	width: 20%;
 }
-.ftr-fancy-glry-item-img{
+.ftr-top-glry-item-img{
 	height: 265px;
 }
 
-.ftr-fancy-glry-item-des{
+.ftr-top-glry-item-des{
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	height: 265px;
 }
-.ftr-fancy-glry-item-des-ctlr{
+.ftr-top-glry-item-des-ctlr{
 	text-align: center;
 }
-.ftr-fancy-glry-item-des-ctlr a{
+.ftr-top-glry-item-des-ctlr a{
 	display: block;
 	margin-bottom: 15px;
 	color: #004C9B;
 	font-size: 30px;
 }
-.ftr-fancy-glry-item-title{
+.ftr-top-glry-item-title{
 	display: block;
 	font-size: 34px;
 	line-height: 1;
@@ -36,7 +38,7 @@
 	padding-bottom: 18px;
 	position: relative;
 }
-.ftr-fancy-glry-item-title:after{
+.ftr-top-glry-item-title:after{
 	content: "";
 	position: absolute;
 	left: 50%;
@@ -95,6 +97,7 @@
 }
 
 
+
 .ftr-top-logo{
 	position: absolute;
 	top: -35px;
@@ -110,20 +113,36 @@
 	position: absolute;
 	bottom: 35px;
 	right: 35px;
+	z-index: 2;
 }
 .ftr-lft-lemon{
 	position: absolute;
 	left: 0;
 	bottom: 0;
+	z-index: 2;
 }
 .ftr-lft-angle-img{
 	position: absolute;
 	left: 0;
 	bottom: 0;
+	z-index: 1;
 }
 .ftr-rgt-angle-img{
 	position: absolute;
 	top: 0;
 	right: 0;
+	z-index: 1;
+}
+
+
+.ftr-copywrite{
+	padding: 30px 0;
+	text-align: center;
+}
+.ftr-copywrite p{
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #000000;
+	margin-bottom: 0;
 }
 
