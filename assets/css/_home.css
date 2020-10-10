@@ -81,3 +81,48 @@
 	background: #f4f4f4;
 	z-index: 1;
 }
+
+.races-running-sec-slider-cntlr{
+	padding: 0 100px;
+}
+.racesRunningSlideItemCol{
+	padding: 0 15px;
+}
+.racesRunningSlideItem{
+	height: 400px;
+	position: relative;
+}
+
+.racesRunningSlideItem-fea-img{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.racesRunningSlideItemDes{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	color: #fff;
+	background: rgba(196,0,11,.86);
+	width: 40%;
+}
+.racesRunningSlideItemDes > div{
+	padding: 50px 15px 30px 25px;
+	position: relative;
+}
+.racesRunningSlideItemDes strong{
+	display: block;
+	margin-bottom: 20px;
+	font-size: 16px;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+.racesRunningSlideItemDesTitle{
+	font-size: 26px;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
