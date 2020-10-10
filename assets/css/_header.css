@@ -1,54 +1,19 @@
 .header{
 	background: #004C9B;
-	min-height: 337px;
-	position: relative;
 	overflow: hidden;
-	z-index: 1;
+	
 }
-.hdr-animate-top-lft-icon{
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 12;
-}
-
-.hdr-animate-btm-rt-icon{
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	z-index: 12;
-}
-.hdr-animate-top-lft-icon img{
-	margin-top: -10px;
-	margin-left: -10px;
-	transition: all 0.5s;
-	-ms-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-}
-.hdr-animate-btm-rt-icon img{
-	margin-bottom: -10px;
-	margin-right: -10px;
-	transition: all 0.5s;
-	-ms-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-}
-.hdr-animate-top-lft-icon:hover img{
-	margin: 0;
-}
-.hdr-animate-btm-rt-icon:hover img{
-	margin-bottom: 0;
-	margin-right: 0;
-}
-.header-inr{
-	position: relative;
-	z-index: 11;
-}
-.header-top{
-	position: relative;
+.main-hdr{
 	display: flex;
 	align-items: center;
 	padding-right: 22px;
 	min-height: 123px;
+	z-index: 20;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: #004C9B;
 }
 .logo{
 	position: absolute;
@@ -81,6 +46,8 @@
 	position: relative;
 	height: 20px;
 	width: 36px;
+	cursor: pointer;
+	
 }
 .humbergar-icon span{
 	position: absolute;
@@ -114,21 +81,7 @@
 .humbergar-icon:hover span:nth-child(3){
 	transform: translateX(3px);
 }
-.hdr-desc{
-	padding: 60px 50px 20px 50px;
-	color: #fff;
 
-	text-align: center;
-}
-.hdr-desc-title{
-	font-size: 50px;
-	font-weight: 900;
-	line-height: 1;
-	margin-bottom: 20px;
-}
-.hdr-desc p{
-	margin-bottom: 0;
-}
 
 
 
