@@ -233,7 +233,19 @@ if( $('.freeAlcoholSlider').length ){
 /*----- end of Rannojit -----*/
 
 
-
+  if( $('.mainBnrSlider').length ){
+    $('.mainBnrSlider').slick({
+      dots: true,
+      infinite: true,
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1
+     
+    });
+}
 /*----- end of Noyon -----*/
 
 
