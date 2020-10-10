@@ -117,7 +117,8 @@
 	left: 50%;
 	transform: translateX(-50%);
 }
-.ftr-top-logo a{
+.ftr-top-logo a,
+.ftr-rgt-logo a{
 	display: inline-block;
 	vertical-align: baseline;
 }
@@ -125,5 +126,20 @@
 	position: absolute;
 	bottom: 35px;
 	right: 35px;
+}
+.ftr-lft-lemon{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.ftr-lft-angle-img{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.ftr-rgt-angle-img{
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
