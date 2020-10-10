@@ -84,56 +84,117 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-nav.main-nav ul{
-
+*mobile header*/
+.mobile-hdr{
+	background: #004C9B;
+	color: #fff;
+	height: 100vh;
+	position: relative;
 }
-nav.main-nav ul li{
-	
+.mobile-hdr:hover .page-bnr-top-lft-animt-icon{
+	left: -20px;
+	top: -20px;
 }
-nav.main-nav ul li a{
-	
+.mobile-hdr:hover .page-bnr-btm-rt-animt-icon{
+	right: -20px;
+	bottom: -20px;
 }
-nav.main-nav > ul{
-
+.mobile-hdr-top{
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding-right: 22px;
+	min-height: 123px;
 }
-nav.main-nav > ul > li{
-
+.close-btn-cntlr{
+	display: flex;
+	justify-content: flex-end;
+	margin-left: auto;
 }
-nav.main-nav > ul > li > a{
-
+.close-btn-icon{
+	width: 22px;
+	height: 22px;
+	position: relative;
+	cursor: pointer;
 }
-
-nav.main-nav > ul > li.current-menu-item > a{
-
+.close-btn-icon span{
+	position: absolute;
+	content: "";
+	top: 0;
+	bottom: 0;
+	transform: rotate(-45deg);
+	height: 2px;
+	width: 100%;
+	background: #FFFFFF;
 }
-
-nav.main-nav > ul > li.menu-item-has-children > a{
-
+.close-btn-icon span:nth-child(2){
+	transform: rotate(45deg);
 }
 
-nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
-	
+
+.mobile-hdr-menu{
+	padding: 0 100px;
+	padding-top: 90px;
+}
+.mbl-nav{
+	text-align: center;
+
+}
+.mbl-nav > ul{
+
+}
+.mbl-nav > ul > li{
+	padding: 0 20px;
+}
+.mbl-nav > ul > li > a{
+	display: inline-block;
+	font-size: 43px;
+	font-weight: 900;
+	line-height: 1.2;
+	color: #6A9BCE;
+	text-transform: uppercase;
+}
+.mbl-nav > ul > li > a span{
+	color: #ffffff;
+	position: relative;
+	z-index: 2;
+}
+.mbl-nav > ul > li > a span:after{
+	position: absolute;
+	content: "";
+	bottom: 4px;
+	left: -10;
+	right: 0;
+	z-index: -1;
+	height: 12px;
+	width: 290px;
+	background: #b68f4a;
+}
+.mbl-nav > ul > li > a:hover{
+	/*color: #b5c2d0;*/
+	color: #fff;
+}
+.mobile-hdr-ftr-menu{
+	padding: 0 100px;
+	padding-top: 180px;
+}
+.mobile-hdr-ftr-menu > ul{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.mobile-hdr-ftr-menu > ul > li{
+	padding: 0 10px;
+}
+.mobile-hdr-ftr-menu > ul > li > a{
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 900;
+	line-height: 1;
+	color: #83AEDB;
+}
+.mobile-hdr-ftr-menu > ul > li.active a,
+.mobile-hdr-ftr-menu > ul > li > a:hover{
+	color: #ffffff;
 }
