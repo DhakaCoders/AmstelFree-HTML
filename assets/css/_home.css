@@ -1,0 +1,47 @@
+.running-free-documentary-sec{
+	position: relative;
+	margin-bottom: 75px;
+}
+.rfd-sec-cntlr{
+	position: relative;
+	background: #f4f4f4;
+}
+.rfds-bg{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 235px;
+	z-index: 1;
+}
+
+.rfd-sec-con{
+	padding: 100px 0 80px;
+	position: relative;
+	z-index: 2;
+}
+
+.rfd-sec-hdr{
+	text-align: center;
+	color: #fff;
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.rfd-sec-hdr p{
+	font-size: 16px;
+}
+.rfd-sec-hdr-title{
+	text-transform: uppercase;
+	font-size: 50px;
+	display: block;
+	margin: 0 0 30px 0;
+}
+.running-free-documentary-sec-fea-img{
+	height: 524px;
+	margin-bottom: 50px;
+}
+.running-free-documentary-sec-fea-img div{
+	width: 100%;
+	height: 100%;
+}
