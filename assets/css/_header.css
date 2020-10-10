@@ -4,7 +4,6 @@
 	
 }
 .main-hdr{
-	position: relative;
 	display: flex;
 	align-items: center;
 	padding-right: 22px;
@@ -14,6 +13,7 @@
 	top: 0;
 	left: 0;
 	right: 0;
+	background: #004C9B;
 }
 .logo{
 	position: absolute;

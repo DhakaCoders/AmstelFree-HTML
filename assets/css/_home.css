@@ -1,3 +1,62 @@
+/*page banner */
+.page-banner{
+	padding-top: 123px;
+	background: #004C9B;
+	position: relative;
+	overflow: hidden;
+	min-height: 336px;
+}
+.page-banner-inr{
+	padding: 16px 50px 20px 50px;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+.page-banner-title{
+	font-size: 50px;
+	font-weight: 900;
+	line-height: 1;
+	margin-bottom: 2px;
+}
+.page-banner-inr p{
+	margin-bottom: 0;
+}
+
+.page-bnr-top-lft-animt-icon{
+	position: absolute;
+	top: -40px;
+	left: -40px;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	z-index: 1;
+}
+.page-banner:hover .page-bnr-top-lft-animt-icon{
+	top: -20px;
+	left: -20px;
+}
+
+.page-bnr-btm-rt-animt-icon{
+	position: absolute;
+	right: -40px;
+	bottom: -40px;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	z-index: 1;
+}
+.page-banner:hover .page-bnr-btm-rt-animt-icon{
+	right: -20px;
+	bottom: -20px;
+}
+
+/*page banner*/
+
+
+
+
+
 .running-free-documentary-sec{
 	position: relative;
 	margin-bottom: 75px;
