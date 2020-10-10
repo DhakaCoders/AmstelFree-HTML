@@ -33,20 +33,22 @@
 	height: 72px!important;
 	z-index: 30;
 }
-/*.slick-prev:before,
+.slick-prev:before,
 .slick-next:before{
 	content: none!important;
 }
 .slick-prev{
-	background: url(../images/prev-blue-icon-xs.png)!important;
-	background-size: 100% auto!important;
+	background: url(../images/prev-arrow.png)!important;
+	background-size: 31px 12px!important;
+	background-position: center center!important;
 	left: 0!important;
 }
 .slick-next{
-	background: url(../images/next-blue-icon-xs.png)!important;
-	background-size: 100% auto!important;
+	background: url(../images/next-arrow.png)!important;
+	background-size: 31px 12px!important;
+	background-position: center center!important;
 	right: 0!important;
-}*/
+}
 
 
 .sitemap{
