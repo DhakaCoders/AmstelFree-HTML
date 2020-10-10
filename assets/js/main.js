@@ -216,7 +216,19 @@ if( $('.racesRunningSlider').length ){
     });
 }
 
-
+if( $('.freeAlcoholSlider').length ){
+    $('.freeAlcoholSlider').slick({
+      dots: false,
+      infinite: false,
+      arrows: true,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1
+     
+    });
+}
 
 /*----- end of Rannojit -----*/
 

@@ -330,6 +330,7 @@ form .dropdown-menu li a{
 	vertical-align: baseline;
 	border: 2px solid #004C9B;
 	cursor: pointer;
+	text-align: center;
 }
 .af-default-btn:hover{
 	background: #fff;
