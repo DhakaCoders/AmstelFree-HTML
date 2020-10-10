@@ -1,3 +1,159 @@
+.header{
+	background: #004C9B;
+	min-height: 337px;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+.hdr-animate-top-lft-icon{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 12;
+}
+
+.hdr-animate-btm-rt-icon{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 12;
+}
+.hdr-animate-top-lft-icon img{
+	margin-top: -10px;
+	margin-left: -10px;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.hdr-animate-btm-rt-icon img{
+	margin-bottom: -10px;
+	margin-right: -10px;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.hdr-animate-top-lft-icon:hover img{
+	margin: 0;
+}
+.hdr-animate-btm-rt-icon:hover img{
+	margin-bottom: 0;
+	margin-right: 0;
+}
+.header-inr{
+	position: relative;
+	z-index: 11;
+}
+.header-top{
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding-right: 22px;
+	min-height: 123px;
+}
+.logo{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.logo a{
+	display: inline-block;
+	max-width: 200px;
+	width: 100%;
+}
+.humbergar-cntlr{
+	display: flex;
+	justify-content: flex-end;
+	padding-left: 22px;
+	position: relative;
+	margin-left: auto;
+}
+.humbergar-cntlr:after{
+	position: absolute;
+	content: "";
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	height: 51px;
+	width: 1px;
+	background: #FFFFFF;
+}
+.humbergar-icon{
+	position: relative;
+	height: 20px;
+	width: 36px;
+}
+.humbergar-icon span{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 5px;
+	right: 5px;
+	height: 2px;
+	width: 26px;
+	background: #FFFFFF;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.humbergar-icon span:nth-child(2){
+	top: 8px;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.humbergar-icon span:nth-child(3){
+	top: 16px;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.humbergar-icon:hover span:nth-child(2){
+	transform: translateX(-3px);
+}
+.humbergar-icon:hover span:nth-child(1),
+.humbergar-icon:hover span:nth-child(3){
+	transform: translateX(3px);
+}
+.hdr-desc{
+	padding: 60px 50px 20px 50px;
+	color: #fff;
+
+	text-align: center;
+}
+.hdr-desc-title{
+	font-size: 50px;
+	font-weight: 900;
+	line-height: 1;
+	margin-bottom: 20px;
+}
+.hdr-desc p{
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 nav.main-nav ul{
 
 }
