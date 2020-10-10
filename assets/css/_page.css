@@ -32,23 +32,29 @@
 	width: 72px!important;
 	height: 72px!important;
 	z-index: 30;
+	background-color: #f4f4f4!important;
+	border-radius: 100% 100%;
+	opacity: 1!important;
 }
 .slick-prev:before,
 .slick-next:before{
 	content: none!important;
 }
 .slick-prev{
-	background: url(../images/prev-arrow.png)!important;
+	background-image: url(../images/prev-arrow.png)!important;
 	background-size: 31px 12px!important;
 	background-position: center center!important;
 	left: 0!important;
+	background-repeat: no-repeat!important;
 }
 .slick-next{
-	background: url(../images/next-arrow.png)!important;
+	background-image: url(../images/next-arrow.png)!important;
 	background-size: 31px 12px!important;
 	background-position: center center!important;
 	right: 0!important;
+	background-repeat: no-repeat!important;
 }
+
 
 
 .sitemap{

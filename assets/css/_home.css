@@ -66,6 +66,7 @@
 
 .races-running-sec-inr{
 	position: relative;
+	padding-bottom: 80px;
 }
 .races-running-sec-con{
 	position: relative;
@@ -84,6 +85,9 @@
 
 .races-running-sec-slider-cntlr{
 	padding: 0 100px;
+}
+.racesRunningSlider{
+	margin: 0 0 50px 0!important;
 }
 .racesRunningSlideItemCol{
 	padding: 0 15px;
@@ -108,11 +112,13 @@
 	bottom: 0;
 	color: #fff;
 	background: rgba(196,0,11,.86);
-	width: 40%;
+	width: 48%;
+	padding: 50px 15px 30px 25px;
 }
 .racesRunningSlideItemDes > div{
-	padding: 50px 15px 30px 25px;
 	position: relative;
+	width: 100%;
+	height: 100%;
 }
 .racesRunningSlideItemDes strong{
 	display: block;
@@ -125,4 +131,24 @@
 	font-size: 26px;
 	line-height: 1.2;
 	text-transform: uppercase;
+}
+
+.rrsid-arrow-icon{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 5;
+}
+
+.racesRunningSlider .slick-prev{
+	left: -100px!important;
+}
+.racesRunningSlider .slick-next{
+	right: -100px!important;
+}
+.racesRunningSlider .racesRunningSlideItemCol .racesRunningSlideItemDes{
+	background: rgba(196,0,11,.86);
+}
+.racesRunningSlider .racesRunningSlideItemCol + .racesRunningSlideItemCol .racesRunningSlideItemDes{
+	background: rgba(186,146,76,.89);
 }
