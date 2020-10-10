@@ -320,7 +320,7 @@ form .dropdown-menu li a{
 .af-default-btn{
 	padding: 22px 30px;
 	min-width: 248px;
-	color: #fff;
+	color: #fff!important;
 	font-size: 12px;
 	line-height: 1;
 	text-transform: uppercase;
@@ -329,4 +329,10 @@ form .dropdown-menu li a{
 	display: inline-block;
 	vertical-align: baseline;
 	border: 2px solid #004C9B;
+	cursor: pointer;
+}
+.af-default-btn:hover{
+	background: #fff;
+	color: #004C9B!important;
+	background: transparent;
 }
