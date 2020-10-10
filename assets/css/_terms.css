@@ -9,19 +9,19 @@
 	padding-right: 40px;
 }
 
-.terms-content-ctlr h6:first-child{
+.terms-content-ctlr article h6:first-child{
 	font-size: 30px;
 	color: #004C9B;
 	text-transform: uppercase;
 	margin-bottom: 25px;
 }
-.terms-content-ctlr h6{
+.terms-content-ctlr article h6{
 	font-size: 20px;
 	color: #000000;
 	text-transform: capitalize;
 	margin-bottom: 20px;
 	font-weight: 700;
 }
-.terms-content-ctlr p{
+.terms-content-ctlr article p{
 	margin-bottom: 25px;
 }
