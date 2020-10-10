@@ -49,27 +49,11 @@
 	background: #C19E61;
 }
 
-.footer-wrp{
-	min-height: 350px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: relative;
-	z-index: 1;
+
+.footer-inr{
 	background: #004C9B;
-}
-.footer{
-	width: 100%;
-	height: 100%;
-	display: flex;
-	align-items: center;
-	
-}
-.footer-wrp:after{
-	content: "";
-    display: table;
-    min-height: inherit;
-    font-size: 0;
+	padding: 190px 0 45px;
+	position: relative;
 }
 .footer-inr{
 	text-align: center;
