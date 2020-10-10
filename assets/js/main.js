@@ -295,7 +295,7 @@ if( $('.relevant-evnt-slider').length ){
     $('.relevant-evnt-slider').slick({
       dots: false,
       infinite: false,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 2000,
       speed: 300,
       slidesToShow: 3,
