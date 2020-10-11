@@ -246,6 +246,23 @@ if( $('.freeAlcoholSlider').length ){
      
     });
 }
+
+
+
+
+if (windowWidth <= 1920) {
+    $('.humbergar-icon').on('click', function(e){
+      $('.mobile-hdr').addClass('opacity-1');
+      /*$('.bdoverlay').addClass('active');*/
+     /* $('body').addClass('active-scroll-off');*/
+      $(this).addClass('active-collapse');
+    });
+    $('.close-btn-icon').on('click', function(e){
+      /*$('.bdoverlay').removeClass('active');*/
+      $('.mobile-hdr').removeClass('opacity-1');
+     /* $('body').removeClass('active-scroll-off');*/
+    });
+  }
 /*----- end of Noyon -----*/
 
 
