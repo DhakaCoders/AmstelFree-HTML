@@ -1,0 +1,60 @@
+.product-model-sec-wrp .modal-body{
+	padding: 0;
+}
+.product-model-sec-wrp .modal-content{
+	border-radius: initial!important;
+}
+.product-model-sec-wrp{
+	padding-top: 100px;
+	background: #014993;
+	overflow-y: scroll!important;
+	position: relative;
+}
+.product-model-sec-wrp .modal-dialog{
+	max-width: 535px;
+	margin: 0 auto;
+}
+.modal-content button{
+	position: absolute;
+	top: -50px;
+	right: 0;
+}
+.modal-content button i{
+	font-size: 12px;
+	color: #fff;
+}
+
+.product-modal-img-ctlr{
+	position: relative;
+}
+.product-modal-img{
+	height: 320px;
+}
+.product-modal-img-des{
+	position: absolute;
+	bottom: 30px;
+	left: 40px;
+}
+.product-modal-img-title{
+	display: block;
+	font-size: 52px;
+	line-height: 1;
+	margin-bottom: 0;
+	font-weight: 900;
+	color: #fff;
+}
+.product-modal-des{
+	padding: 45px 35px 25px 40px;
+}
+.product-modal-des p{
+	font-size: 16px;
+	color: #000000;
+	margin-bottom: 20px;
+}
+.product-modal-des strong{
+	font-size: 16px;
+	color: #000;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
