@@ -330,6 +330,12 @@
 .rf-team-member-btm{
 	padding-top: 60px;
 }
+.rf-team-member-btm-grids ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
 .rf-team-member-btm-grids ul li{
 	float: left;
 	width: 20%;
@@ -340,7 +346,6 @@
 }
 .rf-team-member-btm-grid-img{
 	width: 100%;
-	height: 222px;
 	border-radius: 50% 50%;
 	position: relative;
 	cursor: pointer;
