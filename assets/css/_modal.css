@@ -7,7 +7,6 @@
 .product-model-sec-wrp{
 	padding-top: 100px;
 	background: #014993;
-	overflow-y: scroll!important;
 	position: relative;
 }
 .product-model-sec-wrp .modal-dialog{
