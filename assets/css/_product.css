@@ -1,0 +1,17 @@
+.product-page-bnr-sec{
+	background: #004c9a;
+	padding: 125px 0 56px;
+	color: #fff;
+}
+
+.ppbs-top-lft-mask{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.ppbs-btm-rgt-mask{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}

@@ -100,7 +100,7 @@ Containers
 	width: 100%;
 }
 .container-md{
-
+	max-width: 1060px;
 }
 
 .container-sm{
