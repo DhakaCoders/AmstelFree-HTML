@@ -83,12 +83,28 @@
 
 
 
-*mobile header*/
+/*mobile header*/
 .mobile-hdr{
 	background: #004C9B;
 	color: #fff;
 	height: 100vh;
 	position: relative;
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: -100%;
+    width: 0;
+    opacity: 0;
+    z-index: 9999;
+    -ms-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.mobile-hdr.opacity-1{
+	right: 0;
+    width: 100%;
+    opacity: 1;
 }
 .mobile-hdr:hover .page-bnr-top-lft-animt-icon{
 	left: -20px;
