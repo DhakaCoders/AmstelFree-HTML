@@ -137,3 +137,159 @@
 	display: flex;
 	align-items: center;
 }
+
+
+
+
+
+/*product grid item*/
+
+.product-grd-sec{
+	padding-bottom: 20px;
+}
+.product-grd-sec-ctlr ul li{
+	float: left;
+	width: 50%;
+}
+
+.product-grd-item-img{
+	height: 625px;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+}
+.product-grd-item-ctlr{
+	position: relative;
+}
+.product-grd-item-des{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding-left: 50px;
+	padding-bottom: 40px;
+	padding-right: 280px;
+}
+
+.product-grd-item-des a{
+	display: inline-block;
+	vertical-align: baseline;
+	margin-bottom: 35px;
+}
+.product-grd-item-des-title{
+	display: block;
+	font-size: 52px;
+	line-height: 1;
+	margin-bottom: 28px;
+	font-weight: 900;
+	color: #fff;
+	text-transform: uppercase;
+}
+.product-grd-item-des p{
+	font-size: 18px;
+	color: #fff;
+}
+.product-grd-item-des-rgt-img{
+	position: absolute;
+	bottom: -10px;
+	right: 10px;
+}
+
+.product-grd-item-wrap{
+	overflow: hidden;
+}
+.product-grd-item:hover .product-grd-item-img{
+	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+}
+
+
+
+.product-information-sec{
+	padding-bottom: 20px;
+}
+.product-information-sec-ctlr{
+	background: #F4F4F4;
+	padding-top: 135px;
+	padding-bottom: 110px;
+	position: relative;
+}
+.pro-info-left-img{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 11;
+}
+
+.pro-info{
+	max-width: 850px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	z-index: 12;
+}
+
+.pro-info-left{
+	float: left;
+	width: 50%;
+	padding-right: 50px;
+}
+.pro-info-rgt{
+	float: right;
+	width: 50%;
+}
+
+.pro-info-left-title,
+.pro-info-rgt-title{
+	display: block;
+	font-size: 21px;
+	line-height: 1;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+	color: #004C9B;
+}
+
+.pro-info-left > ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+} 
+.pro-info-left > ul > li strong{
+	float: left;
+	font-size: 16px;
+	color: #004C9B;
+	font-weight: 700;
+}
+.pro-info-left > ul > li span{
+	float: right;
+	font-size: 16px;
+	color: #004C9B;
+	font-weight: 700;
+}
+
+
+.pro-info-rgt ul li{
+	float: left;
+	width: 50%;
+}
+.pro-info-rgt ul li i{
+	width: 26px;
+	height: 26px;
+	background: #004C9B;
+	border-radius: 100%;
+	line-height: 26px;
+	margin-right: 20px;
+}
+.pro-info-rgt ul li i img{
+	max-width: 15px;
+	width: 100%;
+	display: inline-block;
+	vertical-align: baseline;
+}
+.pro-info-rgt ul li strong{
+	font-size: 16px;
+	color: #004C9B;
+	font-weight: 700;
+}
+
+
