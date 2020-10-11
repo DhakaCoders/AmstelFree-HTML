@@ -139,3 +139,170 @@ afrp-image-text-gird-sec-wrp
     -ms-transform: all 0.5s;
     -webkit-transform: all 0.5s;
 }
+
+
+/*
+----------------------
+ Responsive Css
+----------------------
+*/
+@media(max-width: 1399px){
+    .afrp-image-text-gird-block {
+        padding: 90px 130px 0;
+    }
+    .afrp-image-text-grid-dsc {
+        padding-left: 45px;
+        padding-right: 30px;
+    }
+    .fl-account-page-entry-hdr a{
+        margin-left: 130px;
+    }
+}
+
+@media(max-width: 1199px){
+    .afrp-image-text-gird-sec-wrp {
+        padding-bottom: 110px;
+    }
+    .afrp-image-text-gird-block-cntlr {
+        margin-top: -190px;
+    }
+    .afrp-image-text-gird-block {
+        padding: 90px 70px 0;
+    }
+    .afrp-image-text-grid-dsc {
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+    .afrp-image-text-grid-dsc-title {
+        font-size: 42px;
+        margin-bottom: 25px;
+    }
+    .fl-account-page-entry-hdr a {
+        margin-left: 70px;
+    }
+    .afrp-image-text-grid-dsc p br{
+        display: none;
+    }
+    .afrp-fancy-module {
+        height: 400px;
+    }
+
+}
+
+@media(max-width: 991px){
+    .afrp-image-text-gird-sec-wrp {
+        padding-bottom: 90px;
+    }
+    .afrp-image-text-gird-block-cntlr {
+        margin-top: -160px;
+    }
+    .afrp-image-text-gird-block {
+        padding: 70px 50px 0;
+    }
+    .afrp-image-text-grid-dsc-title {
+        font-size: 40px;
+        margin-bottom: 20px;
+    } 
+    .afrp-image-text-grid-fea-img{
+        width: 100%;
+        min-height: 500px;
+    }
+    .afrp-image-text-grid-dsc {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+        padding-top: 30px;
+    }
+    .afrp-image-text-gird-cntlr {
+        margin-bottom: 30px;
+    }
+    .afrp-fancy-module {
+        height: 380px;
+    }
+    .fl-account-page-entry-hdr a {
+        margin-left: 50px;
+    }
+}
+
+@media(max-width: 767px){
+    .afrp-image-text-gird-block-cntlr {
+        margin-top: -130px;
+    }
+    .afrp-image-text-grid-dsc-title {
+        font-size: 36px;
+    } 
+    .afrp-image-text-gird-sec-wrp {
+        padding-bottom: 60px;
+    }
+    .afrp-image-text-grid-fea-img{
+        min-height: 460px;
+    }
+    .afrp-image-text-gird-block {
+        padding: 50px 30px 0;
+    }
+    .afrp-fancy-module {
+        height: 350px;
+    }
+    .ms-video-play-cntlr{
+        width: 50px;
+        height: 50px;
+    }
+    .fl-account-page-entry-hdr a {
+        margin-left: 30px;
+        max-width: 100px;
+    }
+    .fl-account-page-entry-hdr a i img{
+        max-width: 90px;
+        width: 100%;
+    }
+    .afrp-image-text-grid-dsc p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .afrp-image-text-grid-dsc {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .afrp-event-two-part-wrp,
+    .afrp-event-page-dsc {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media(max-width: 575px){
+   .afrp-image-text-grid-dsc-title {
+        font-size: 30px;
+    } 
+    .afrp-image-text-grid-fea-img{
+        min-height: 420px;
+    }
+    .afrp-image-text-gird-block {
+        padding: 40px 20px 0;
+    }
+    .afrp-fancy-module {
+        height: 320px;
+    }
+    .ms-video-play-cntlr{
+        width: 40px;
+        height: 40px;
+    }
+    .fl-account-page-entry-hdr a {
+        margin-left: 20px;
+    }
+
+}
+
+@media(max-width: 479px){
+    .afrp-image-text-grid-fea-img{
+        min-height: 340px;
+    }
+    .afrp-fancy-module {
+        height: 280px;
+    }
+
+}
+
+@media(max-width: 359px){
+
+}
