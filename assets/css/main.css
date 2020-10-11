@@ -7,7 +7,7 @@
 @import url('_home.css');
 @import url('_contact.css');
 @import url('_footer.css');
-
+@import url('_product.css');
 /*----- Start of Rannojit -----*/
 
 
@@ -21,6 +21,8 @@
 
 
 /*----- Start of Milon -----*/
+@import url('_running-event-page.css');
+@import url('_running-profile.css');
 
 
 
