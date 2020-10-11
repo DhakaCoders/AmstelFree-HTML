@@ -10,9 +10,6 @@ afrp-image-text-gird-sec-wrp
 	margin-top: -220px;
 }
 .afrp-image-text-gird-block{
-	max-width: 1225px;
-	width: 100%;
-	margin: 0 auto;
 	background:#fff;
 	padding: 90px 155px 0 155px;
 }
@@ -27,10 +24,11 @@ afrp-image-text-gird-sec-wrp
     background-repeat: no-repeat!important;
     background-position: center center!important;
 }
-.afrp-image-text-grid-dsc{
-	float: left;
-	width: 50%;
-	padding-left: 55px;
+.afrp-image-text-grid-dsc {
+    float: left;
+    width: 50%;
+    padding-left: 55px;
+    padding-right: 55px;
 }
 .afrp-image-text-grid-dsc p{
 	font-size: 18px;
