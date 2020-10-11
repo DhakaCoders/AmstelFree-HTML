@@ -6,6 +6,12 @@
 .rng-items-list-sm-btn a{
 	width: 106px;
 }
+.rng-top-cheak-input-lg-btn,
+.rng-top-cheak-input-lg-btn{
+	width: 200px;
+}
+
+
 .running-lists-cntlr-wrap{
 	padding: 0 30px;
 	background: #f4f4f4;
