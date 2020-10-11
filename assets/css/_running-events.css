@@ -47,7 +47,7 @@
 	height: 36px;
 	width: 169px;
 	background: #e8e8e8;
-	border-radius: 10px;
+	border-radius: 20px;
 	font-size: 12px;
 	color: #3E3935;
 	text-transform: uppercase;
@@ -238,8 +238,17 @@
 	font-weight: 600;
 	display: inline-block;
 }
+.pagination-cntlr > ul > li > a.rt-icon{
+	position: relative;
+}
+.pagination-cntlr > ul > li > a.rt-icon:after{
+	position: absolute;
+}
 .pagination-cntlr > ul > li > a.current,
 .pagination-cntlr > ul > li > span.current{
 	color: #1a4675;
 	font-weight: 900;
+}
+.pagination-cntlr > ul > li > a:hover{
+	color:#0a2e52; 
 }
