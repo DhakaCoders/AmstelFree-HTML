@@ -1,0 +1,122 @@
+
+.contact-form-sec{
+	padding: 60px 0;
+}
+
+
+
+
+.contact-form-lft-sidebar{
+	float: left;
+	width: 50%;
+}
+.contact-rgt-form{
+	float: right;
+	width: 50%;
+}
+
+.contact-form-lft-sidebar-title,
+.contact-rgt-form-title{
+	display: block;
+	font-size: 46px;
+	line-height: 1;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+	color: #004C9B;
+}
+
+
+.contact-form-lft-sidebar-adr{
+	padding-bottom: 20px;
+}
+.cflsa-title,
+.cflsp-title{
+	display: block;
+	font-size: 40px;
+	line-height: 1;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	color: #004C9B;
+}
+.contact-form-lft-sidebar-adr a,
+.contact-form-lft-sidebar-phone a{
+	color: #000;
+}
+.contact-form-lft-sidebar-adr a:hover,
+.contact-form-lft-sidebar-phone a:hover{
+	color: #004C9B;
+}
+
+.contact-rgt-form-field{
+	padding-top: 20px;
+}
+
+
+.af-inputfield{
+	width: 100%;
+	margin-bottom: 50px;
+}
+.af-inputfield input{
+	width: 100%;
+}
+
+.af-inputfield input[type=text]{
+	height: 40px;
+	color: #3E3935;
+	border-bottom: 1px solid #000000;
+}
+.af-inputfield input[type=text]:focus{
+	border-color: #C19E61;
+}
+
+.af-inputfield input[type=text]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  opacity: 1;
+  color: #3E3935;
+}
+.af-inputfield input[type=text]::-moz-placeholder { /* Firefox 19+ */
+  opacity: 1;
+  color: #3E3935;
+}
+.af-inputfield input[type=text]:-ms-input-placeholder { /* IE 10+ */
+  opacity: 1;
+  color: #3E3935;
+}
+.af-inputfield input[type=text]:-moz-placeholder { /* Firefox 18- */
+  opacity: 1;
+  color: #3E3935;
+}
+
+.af-inputfield textarea{
+	width: 100%;
+	height: 130px;
+	color: #3E3935;
+	border: none;
+	border-bottom: 1px solid #000000;
+}
+.af-inputfield textarea:focus{
+	border-color: #C19E61;
+}
+.af-inputfield textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  opacity: 1;
+  color: #3E3935;
+}
+.af-inputfield textarea::-moz-placeholder { /* Firefox 19+ */
+  opacity: 1;
+  color: #3E3935;
+}
+.af-inputfield textarea:-ms-input-placeholder { /* IE 10+ */
+  opacity: 1;
+  color: #3E3935;
+}
+.af-inputfield textarea:-moz-placeholder { /* Firefox 18- */
+  opacity: 1;
+  color: #3E3935;
+}
+.af-inputfield input[type=submit]{
+	width: initial;
+}
+.af-inputfield p{
+	font-size: 12px;
+	color: #3B3B3B;
+	padding-right: 120px;
+}
