@@ -1,0 +1,59 @@
+ .modal-dialog{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.modal-body{
+	padding: 0;
+}
+.product-modal-content-ctlr{
+	padding-top: 100px;
+	background: #014993;
+}
+
+
+.product-modal-content{
+	background: #fff!important;
+	max-width: 535px;
+	margin: 0 auto;
+	position: relative;
+}
+.product-modal-content button{
+	position: absolute;
+	top: -42px;
+	right: 0;
+}
+
+.product-modal-img-ctlr{
+	position: relative;
+}
+.product-modal-img{
+	height: 320px;
+}
+.product-modal-img-des{
+	position: absolute;
+	bottom: 30px;
+	left: 40px;
+}
+.product-modal-img-title{
+	display: block;
+	font-size: 52px;
+	line-height: 1;
+	margin-bottom: 0;
+	font-weight: 900;
+	color: #fff;
+}
+.product-modal-des{
+	padding: 45px 35px 25px 40px;
+}
+.product-modal-des p{
+	font-size: 16px;
+	color: #000000;
+	margin-bottom: 20px;
+}
+.product-modal-des strong{
+	font-size: 16px;
+	color: #000;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
