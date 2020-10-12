@@ -479,7 +479,7 @@
 	    padding: 25px 80px 0;
 	}
 	.afrp-event-page-sec-wrp .fl-account-page-entry-hdr a {
-	    margin-left: 115px;
+	    margin-left: 100px;
 	}
 	.afrp-event-two-part-wrp, .afrp-event-page-dsc {
 	    padding-top: 60px;
@@ -512,6 +512,9 @@
 	.rf-team-member-title {
 	    font-size: 46px;
 	}
+	.afrp-event-page-dsc span br{
+		display: none;
+	}
 	
 
 }
@@ -531,7 +534,7 @@
 	    padding: 25px 40px 0;
 	}
 	.afrp-event-page-sec-wrp .fl-account-page-entry-hdr a {
-	    margin-left: 65px;
+	    margin-left: 45px;
 	}
 	.afrp-event-two-part-wrp, .afrp-event-page-dsc {
 	    padding-top: 40px;
@@ -600,7 +603,7 @@
 	    padding-bottom: 30px !important;
 	}
 	.afrp-event-page-sec-wrp .fl-account-page-entry-hdr a {
-	    margin-left: 35px;
+	    margin-left: 15px;
 	}
 	.afrp-event-page-sec-wrp .fl-account-page-entry-hdr a i {
 	    padding-right: 40px;
@@ -682,7 +685,7 @@
 	    height: 280px;
 	}
 	.afrp-event-page-sec-wrp .fl-account-page-entry-hdr a {
-	    margin-left: 22px;
+	    margin-left: 8px;
 	}
 	.relevant-evnt-title {
 	    font-size: 27px;
