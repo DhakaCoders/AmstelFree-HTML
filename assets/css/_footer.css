@@ -32,6 +32,7 @@
 	font-size: 34px;
 	line-height: 1;
 	margin-bottom: 0;
+	font-family: 'TheSansAmstel-CondensedBold';
 	font-weight: 700;
 	color: #004C9B;
 	text-transform: uppercase;
@@ -73,7 +74,7 @@
 	font-size: 15px;
 	color: #fff;
 	text-transform: uppercase;
-	font-family: 'TheSansAmstel';
+	font-family: 'TheSansAmstel-Black';
 	font-weight: 900;
 }
 .ftr-menu ul li a:hover{
@@ -156,5 +157,7 @@
 	text-transform: uppercase;
 	color: #000000;
 	margin-bottom: 0;
+	font-family: 'TheSansAmstel-SemiLight';
+	font-weight: 300;
 }
 
