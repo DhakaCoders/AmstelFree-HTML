@@ -6,7 +6,9 @@
 	max-width: 850px;
 	width: 100%;
 	margin: 0 auto;
-	padding-right: 40px;
+}
+.terms-content-ctlr article{
+	padding-right: 60px;
 }
 
 .terms-content-ctlr article h6:first-child{
