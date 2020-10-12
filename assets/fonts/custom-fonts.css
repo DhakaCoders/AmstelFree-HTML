@@ -10,7 +10,7 @@
 }
 
 @font-face {
-    font-family: 'TheSansAmstel SemiLight';
+    font-family: 'TheSansAmstelSemiLight';
     src: url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.eot');
     src: url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.eot?#iefix') format('embedded-opentype'),
         url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.woff2') format('woff2'),
@@ -36,7 +36,7 @@
 }
 
 @font-face {
-    font-family: 'TheSansAmstel Condensed';
+    font-family: 'TheSansAmstelCondensed';
     src: url('TheSansAmstel-CondensedPlain/TheSansAmstel-CondensedPlain.eot');
     src: url('TheSansAmstel-CondensedPlain/TheSansAmstel-CondensedPlain.eot?#iefix') format('embedded-opentype'),
         url('TheSansAmstel-CondensedPlain/TheSansAmstel-CondensedPlain.woff2') format('woff2'),
@@ -49,7 +49,7 @@
 }
 
 @font-face {
-    font-family: 'TheSansAmstel Condensed';
+    font-family: 'TheSansAmstelCondensed';
     src: url('TheSansAmstel-CondensedBold/TheSansAmstel-CondensedBold.eot');
     src: url('TheSansAmstel-CondensedBold/TheSansAmstel-CondensedBold.eot?#iefix') format('embedded-opentype'),
         url('TheSansAmstel-CondensedBold/TheSansAmstel-CondensedBold.woff2') format('woff2'),
