@@ -137,6 +137,9 @@
 	display: flex;
 	align-items: center;
 }
+.pro-page-bnr-con-changer-btn strong{
+	text-align: right;
+}
 
 
 
