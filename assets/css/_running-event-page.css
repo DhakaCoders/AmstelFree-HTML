@@ -5,23 +5,20 @@
 */
 .afrp-event-page-sec-wrp{
 	padding-bottom: 75px;
+	margin-top: -140px;
 }
 .afrp-event-page-sec-wrp .afrp-event-page-module{
 	padding-left: 50px;
 	padding-right: 30px;
 }
-.afrp-event-page-sec-wrp .fl-account-page-entry-hdr a{
-	margin-left: 145px;
-	max-width: 130px;
+.afrp-event-page-sec-wrp .afrp-sec-cntlr{
+    padding-top: 25px !important;
 }
-.afrp-event-page-sec-wrp .fl-account-page-entry-hdr a i {
-    padding-right: 17px;
+.afrp-event-page-sec-wrp .afrp-img-txt-gird-block{
+	max-width: 1040px;
 }
-.afrp-event-page-sec-wrp .afrp-image-text-gird-block-cntlr {
-    margin-top: -140px;
-}
-.afrp-event-page-sec-wrp .afrp-image-text-gird-block {
-    padding: 25px 110px 0 110px;
+.afrp-event-page-sec-wrp .fl-account-page-entry-hdr {
+    max-width: 995px;
 }
 .afrp-event-page-module a{
 	display: inline-block;
@@ -478,9 +475,6 @@
 	.afrp-event-page-sec-wrp .afrp-image-text-gird-block {
 	    padding: 25px 80px 0;
 	}
-	.afrp-event-page-sec-wrp .fl-account-page-entry-hdr a {
-	    margin-left: 100px;
-	}
 	.afrp-event-two-part-wrp, .afrp-event-page-dsc {
 	    padding-top: 60px;
 	    padding-left: 40px;
@@ -515,6 +509,9 @@
 	.afrp-event-page-dsc span br{
 		display: none;
 	}
+	.afrp-event-page-sec-wrp .fl-account-page-entry-hdr {
+	    padding-left: 45px;
+	}
 	
 
 }
@@ -523,18 +520,15 @@
     .afrp-event-page-module-title {
 	    font-size: 36px;
 	}
+	.afrp-event-page-sec-wrp .fl-account-page-entry-hdr {
+	    padding-left: 35px;
+	}
 	.afrp-event-page-sec-wrp .afrp-event-page-module {
 	    padding-left: 40px;
 	    padding-right: 10px;
 	}
-	.afrp-event-page-sec-wrp .fl-account-page-entry-hdr a {
-	    margin-left: 100px;
-	}
 	.afrp-event-page-sec-wrp .afrp-image-text-gird-block {
 	    padding: 25px 40px 0;
-	}
-	.afrp-event-page-sec-wrp .fl-account-page-entry-hdr a {
-	    margin-left: 45px;
 	}
 	.afrp-event-two-part-wrp, .afrp-event-page-dsc {
 	    padding-top: 40px;
@@ -602,11 +596,14 @@
 	.afrp-event-two-part-wrp {
 	    padding-bottom: 30px !important;
 	}
-	.afrp-event-page-sec-wrp .fl-account-page-entry-hdr a {
-	    margin-left: 15px;
-	}
 	.afrp-event-page-sec-wrp .fl-account-page-entry-hdr a i {
 	    padding-right: 40px;
+	}
+	.afrp-event-page-sec-wrp .fl-account-page-entry-hdr {
+	    padding-left: 25px;
+	}
+	.afrp-event-page-sec-wrp .fl-account-page-entry-hdr a {
+	    max-width: 110px;
 	}
 	.relevant-evnt-title {
 	    font-size: 30px;
@@ -684,9 +681,6 @@
 	#eventgooglemap {
 	    height: 280px;
 	}
-	.afrp-event-page-sec-wrp .fl-account-page-entry-hdr a {
-	    margin-left: 8px;
-	}
 	.relevant-evnt-title {
 	    font-size: 27px;
 	}
@@ -761,6 +755,9 @@
 	}
 	.relevant-evnt-slide-item-img{
 		height: 220px !important;
+	}
+	.afrp-event-page-sec-wrp .fl-account-page-entry-hdr {
+	    padding-left: 15px;
 	}
 
 }
