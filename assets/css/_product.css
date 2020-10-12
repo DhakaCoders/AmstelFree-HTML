@@ -158,7 +158,7 @@
 	-webkit-transition: all 0.5s;
 	-ms-transition: all 0.5s;
 }
-.product-grd-item-ctlr{
+.product-grd-item-des-img-ctlr{
 	position: relative;
 }
 .product-grd-item-des{
@@ -194,7 +194,7 @@
 	right: 10px;
 }
 
-.product-grd-item-wrap{
+.product-grd-item-ctlr{
 	overflow: hidden;
 }
 .product-grd-item:hover .product-grd-item-img{
@@ -254,17 +254,24 @@
 	padding: 0;
 	margin: 0;
 } 
-.pro-info-left > ul > li strong{
+.pro-info-left > ul > li > strong{
 	float: left;
 	font-size: 16px;
 	color: #004C9B;
 	font-weight: 700;
 }
-.pro-info-left > ul > li span{
+.pro-info-left > ul > li > span{
 	float: right;
 	font-size: 16px;
 	color: #004C9B;
 	font-weight: 700;
+}
+
+.pro-info-left > ul > li > ol > li > strong{
+	float: left;
+}
+.pro-info-left > ul > li > ol > li > span{
+	float: right;
 }
 
 
