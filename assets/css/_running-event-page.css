@@ -447,7 +447,7 @@
     font-size: 20px;
     line-height: 1;
 }
-.relevant-evnt-slide-item-img-cntlr .relevant-evnt-slide-item-img:after{
+.rf-team-member-sec-wrp .relevant-evnt-slide-item-img:after{
 	content: "";
 	position: absolute;
 	left: 0;
@@ -681,7 +681,7 @@
 	    height: 280px;
 	}
 	.afrp-event-page-sec-wrp .fl-account-page-entry-hdr a {
-	    margin-left: 25px;
+	    margin-left: 22px;
 	}
 	.relevant-evnt-title {
 	    font-size: 27px;
@@ -754,6 +754,9 @@
 	.rf-team-member-tp-grid-txt span {
 	    font-size: 22px;
 	    line-height: 24px;
+	}
+	.relevant-evnt-slide-item-img{
+		height: 220px !important;
 	}
 
 }
