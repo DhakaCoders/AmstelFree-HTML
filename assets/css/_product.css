@@ -247,13 +247,25 @@
 	text-transform: uppercase;
 	color: #004C9B;
 }
+.pro-info-left-title{
+	text-transform: unset;
+}
+.pro-info-left-title strong{
+	font-family: 'TheSansAmstel-Black';
+	text-transform: uppercase;
+}
+.pro-info-left-title span{
+	font-family: 'TheSansAmstel-Plain';
+}
 
 .pro-info-left > ul{
 	list-style: none;
 	padding: 0;
 	margin: 0;
 } 
-
+.pro-info-left > ul > li{
+	padding-bottom: 10px;
+}
 .pro-info-left > ul > li > strong,
 .pro-info-left > ul > li .pro-info-item strong{
 	float: left;
