@@ -57,13 +57,18 @@
 	justify-content: center;
 	margin-bottom: 35px;
 }
+.races-running-sec-hdr p{
+	color: #004C9B;
+	margin-bottom: 0;
+}
 .rrsh-title{
 	font-size: 50px;
-	line-height: 1.2;
+	line-height: 1;
 	text-transform: uppercase;
 	color: #004C9B;
 	margin: 0;
 	padding-right: 50px;
+	text-align: right;
 }
 
 
@@ -119,7 +124,7 @@
 	bottom: 0;
 	color: #fff;
 	background: rgba(196,0,11,.86);
-	width: 48%;
+	width: 51%;
 	padding: 50px 15px 30px 25px;
 }
 .racesRunningSlideItemDes > div{
@@ -135,7 +140,7 @@
 	text-transform: uppercase;
 }
 .racesRunningSlideItemDesTitle{
-	font-size: 26px;
+	font-size: 22px;
 	line-height: 1.2;
 	text-transform: uppercase;
 }
