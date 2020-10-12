@@ -17,6 +17,8 @@
 .logo{
 	position: absolute;
 	left: 50%;
+	-ms-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
 }
 .logo a{
@@ -35,6 +37,8 @@
 	position: absolute;
 	content: "";
 	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 	left: 0;
 	height: 51px;
@@ -74,10 +78,14 @@
 	-webkit-transition: all 0.5s;
 }
 .humbergar-icon:hover span:nth-child(2){
+	-ms-transform: translateX(-3px);
+	-webkit-transform: translateX(-3px);
 	transform: translateX(-3px);
 }
 .humbergar-icon:hover span:nth-child(1),
 .humbergar-icon:hover span:nth-child(3){
+	-ms-transform: translateX(3px);
+	-webkit-transform: translateX(3px);
 	transform: translateX(3px);
 }
 
@@ -85,24 +93,31 @@
 /*fixed header*/
 .fixed-hdr{
 	min-height: 66px;
-	position: relative;
+	position: fixed;
 	padding: 0 22px 0 25px;
-	position: relative;
-	top: 0;
+	top: -100px;
 	left: 0;
 	right: 0;
+	opacity: 0;
 	background: #004C9B;
 	z-index: 9999;
 	display: flex;
 	align-items: center;
 	overflow: hidden;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
-/*.fixed-hdr:hover .page-bnr-top-lft-animt-icon{
-	top: -60px;
-	left: -60px;
-}*/
+.hasSticky header.header .fixed-hdr{
+	opacity: 1;
+	top: 0;
+}
 .fixed-hdr .logo{
-	left: 60px;
+	position: initial;
+    left: initial;
+    -ms-transform: initial;
+    -webkit-transform: initial;
+    transform: initial;
 }
 .fixed-hdr .logo a{
 	max-width: 66px;
