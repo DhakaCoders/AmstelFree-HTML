@@ -5,20 +5,25 @@ afrp-image-text-gird-sec-wrp
 */
 .afrp-image-text-gird-sec-wrp{
 	padding-bottom: 140px;
+    margin-top: -200px;
 }
-.afrp-image-text-gird-block-cntlr{
-	margin-top: -220px;
+.afrp-sec-cntlr{
+    background:#fff;
+    padding-top: 90px;
     max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+}
+.afrp-img-txt-gird-block{
+    max-width: 950px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-}
-.afrp-image-text-gird-block{
-	background:#fff;
-	padding: 90px 155px 0 155px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .afrp-image-text-gird-cntlr{
-	margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 .afrp-image-text-grid-fea-img{
 	float: left;
@@ -106,9 +111,13 @@ afrp-image-text-gird-sec-wrp
     font-size: 20px;
     line-height: 1;
 }
-
-.fl-account-page-entry-hdr {
-    padding: 20px 0 20px;
+.fl-account-page-entry-hdr{
+    max-width: 950px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 20px 20px;
     transform: all 0.5s;
     -ms-transform: all 0.5s;
     -webkit-transform: all 0.5s;
@@ -121,7 +130,6 @@ afrp-image-text-gird-sec-wrp
     color: #fff;
     text-transform: uppercase;
     max-width: 125px;
-    margin-left: 155px;
     transform: all 0.5s;
     -ms-transform: all 0.5s;
     -webkit-transform: all 0.5s;
@@ -151,38 +159,28 @@ afrp-image-text-gird-sec-wrp
 ----------------------
 */
 @media(max-width: 1399px){
-    .afrp-image-text-gird-block {
-        padding: 90px 130px 0;
-    }
     .afrp-image-text-grid-dsc {
         padding-left: 45px;
         padding-right: 30px;
     }
-    .fl-account-page-entry-hdr a{
-        margin-left: 130px;
-    }
+    
 }
 
 @media(max-width: 1199px){
     .afrp-image-text-gird-sec-wrp {
         padding-bottom: 110px;
+        margin-top: -180px;
     }
-    .afrp-image-text-gird-block-cntlr {
-        margin-top: -190px;
-    }
-    .afrp-image-text-gird-block {
-        padding: 90px 70px 0;
+    .afrp-sec-cntlr{
+        padding-top: 70px;
     }
     .afrp-image-text-grid-dsc {
         padding-left: 30px;
-        padding-right: 10px;
+        padding-right: 20px;
     }
     .afrp-image-text-grid-dsc-title {
         font-size: 42px;
         margin-bottom: 25px;
-    }
-    .fl-account-page-entry-hdr a {
-        margin-left: 70px;
     }
     .afrp-image-text-grid-dsc p br{
         display: none;
@@ -197,11 +195,8 @@ afrp-image-text-gird-sec-wrp
     .afrp-image-text-gird-sec-wrp {
         padding-bottom: 90px;
     }
-    .afrp-image-text-gird-block-cntlr {
-        margin-top: -160px;
-    }
-    .afrp-image-text-gird-block {
-        padding: 70px 50px 0;
+    .afrp-image-text-gird-cntlr {
+        padding-bottom: 30px;
     }
     .afrp-image-text-grid-dsc-title {
         font-size: 40px;
@@ -217,26 +212,21 @@ afrp-image-text-gird-sec-wrp
         width: 100%;
         padding-top: 30px;
     }
-    .afrp-image-text-gird-cntlr {
-        margin-bottom: 30px;
-    }
     .afrp-fancy-module {
         height: 380px;
-    }
-    .fl-account-page-entry-hdr a {
-        margin-left: 50px;
     }
 }
 
 @media(max-width: 767px){
-    .afrp-image-text-gird-block-cntlr {
-        margin-top: -130px;
-    }
     .afrp-image-text-grid-dsc-title {
         font-size: 36px;
     } 
     .afrp-image-text-gird-sec-wrp {
         padding-bottom: 60px;
+        margin-top: -160px;
+    }
+    .afrp-sec-cntlr{
+        padding-top: 50px;
     }
     .afrp-image-text-grid-fea-img{
         min-height: 460px;
@@ -251,8 +241,7 @@ afrp-image-text-gird-sec-wrp
         width: 50px;
         height: 50px;
     }
-    .fl-account-page-entry-hdr a {
-        margin-left: 30px;
+    .fl-account-page-entry-hdr a{
         max-width: 100px;
     }
     .fl-account-page-entry-hdr a i img{
@@ -291,9 +280,6 @@ afrp-image-text-gird-sec-wrp
         width: 40px;
         height: 40px;
     }
-    .fl-account-page-entry-hdr a {
-        margin-left: 20px;
-    }
 
 }
 
@@ -303,6 +289,13 @@ afrp-image-text-gird-sec-wrp
     }
     .afrp-fancy-module {
         height: 280px;
+    }
+    .afrp-img-txt-gird-block {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .afrp-image-text-grid-dsc {
+        padding-right: 0;
     }
 
 }
