@@ -10,7 +10,7 @@
 }
 
 @font-face {
-    font-family: 'TheSansAmstelSemiLight';
+    font-family: 'TheSansAmstel-SemiLight';
     src: url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.eot');
     src: url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.eot?#iefix') format('embedded-opentype'),
         url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.woff2') format('woff2'),
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    font-family: 'TheSansAmstel';
+    font-family: 'TheSansAmstel-Plain';
     src: url('TheSansAmstel-Plain/TheSansAmstel-Plain.eot');
     src: url('TheSansAmstel-Plain/TheSansAmstel-Plain.eot?#iefix') format('embedded-opentype'),
         url('TheSansAmstel-Plain/TheSansAmstel-Plain.woff2') format('woff2'),
@@ -36,7 +36,7 @@
 }
 
 @font-face {
-    font-family: 'TheSansAmstelCondensed';
+    font-family: 'TheSansAmstel-CondensedPlain';
     src: url('TheSansAmstel-CondensedPlain/TheSansAmstel-CondensedPlain.eot');
     src: url('TheSansAmstel-CondensedPlain/TheSansAmstel-CondensedPlain.eot?#iefix') format('embedded-opentype'),
         url('TheSansAmstel-CondensedPlain/TheSansAmstel-CondensedPlain.woff2') format('woff2'),
@@ -49,7 +49,7 @@
 }
 
 @font-face {
-    font-family: 'TheSansAmstelCondensed';
+    font-family: 'TheSansAmstel-CondensedBold';
     src: url('TheSansAmstel-CondensedBold/TheSansAmstel-CondensedBold.eot');
     src: url('TheSansAmstel-CondensedBold/TheSansAmstel-CondensedBold.eot?#iefix') format('embedded-opentype'),
         url('TheSansAmstel-CondensedBold/TheSansAmstel-CondensedBold.woff2') format('woff2'),
@@ -62,7 +62,7 @@
 }
 
 @font-face {
-    font-family: 'TheSansAmstel';
+    font-family: 'TheSansAmstel-Bold';
     src: url('TheSansAmstel-Bold/TheSansAmstel-Bold.eot');
     src: url('TheSansAmstel-Bold/TheSansAmstel-Bold.eot?#iefix') format('embedded-opentype'),
         url('TheSansAmstel-Bold/TheSansAmstel-Bold.woff2') format('woff2'),
@@ -75,7 +75,7 @@
 }
 
 @font-face {
-    font-family: 'TheSansAmstel';
+    font-family: 'TheSansAmstel-Black';
     src: url('TheSansAmstel-Black/TheSansAmstel-Black.eot');
     src: url('TheSansAmstel-Black/TheSansAmstel-Black.eot?#iefix') format('embedded-opentype'),
         url('TheSansAmstel-Black/TheSansAmstel-Black.woff2') format('woff2'),

@@ -20,14 +20,14 @@ body {
     color: #3B3B3B;
     font-size: 17px;
     line-height: 24px;
-    font-family: 'TheSansAmstel';
+    font-family: 'TheSansAmstel-Plain';
     font-weight: 400;
 }
 p{
 	font-size: 17px;
 	line-height: 1.2;
 	margin-bottom: 15px;
-	font-family: 'TheSansAmstel';
+	font-family: 'TheSansAmstel-Plain';
 	font-weight: 400;
 }
 /*-- app gap use pattern --*/
@@ -360,7 +360,7 @@ form .dropdown-menu li a{
 	font-size: 12px;
 	line-height: 1;
 	text-transform: uppercase;
-	font-family: 'TheSansAmstel';
+	font-family: 'TheSansAmstel-Bold';
 	font-weight: 700;
 	background: #004C9B;
 	display: inline-block;
