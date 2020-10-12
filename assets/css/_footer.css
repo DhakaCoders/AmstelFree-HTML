@@ -27,6 +27,9 @@
 	color: #004C9B;
 	font-size: 30px;
 }
+.ftr-top-glry-item-des-ctlr a:hover{
+	color: #C19E61;
+}
 .ftr-top-glry-item-title{
 	display: block;
 	font-size: 34px;
