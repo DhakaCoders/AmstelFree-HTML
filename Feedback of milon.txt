@@ -9,3 +9,13 @@ Desktop-->
 
 	home page a ai section tar pattern ta follow kore sob page ar section gulo update kore felo.
 	ami baki check kore feedback dischi. --> https://prnt.sc/uxyao6
+
+
+2. https://prnt.sc/uxyi8m
+	flex ki lagteche aikhane?
+
+3.  https://prnt.sc/uxyjpe
+	direct font-family use koro, font-weight lagbena.
+
+	jodi amon hoy j, just amader kache regular font-family ta ache.
+	r use korte hobe bold ta , tahole tokhon amara font-weight diye manage korbo.
