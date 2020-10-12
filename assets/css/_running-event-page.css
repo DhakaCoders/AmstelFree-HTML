@@ -19,6 +19,7 @@
 }
 .afrp-event-page-sec-wrp .fl-account-page-entry-hdr {
     max-width: 995px;
+    padding-left: 30px;
 }
 .afrp-event-page-module a{
 	display: inline-block;
@@ -180,7 +181,7 @@
 	text-align: center;
 }
 .relevant-evnt-slider-wrp{
-    padding: 0 100px;
+    padding: 0 90px;
 }
 .relevant-evnt-slider{
 	padding-bottom: 45px;
@@ -211,10 +212,10 @@
 }
 
 .relevant-evnt-slider .slick-prev{
-    left: -100px!important;
+    left: -90px!important;
 }
 .relevant-evnt-slider .slick-next{
-    right: -100px!important;
+    right: -90px!important;
 }
 .relevant-evnt-slider .slick-prev:hover{
 	background-color: #004c9a !important;
@@ -241,8 +242,8 @@
 	font-size: 14px;
 	line-height: 16px;
 	color: #004C9B;
-	font-weight: 700;
-	padding-bottom: 15px;
+	font-family: 'TheSansAmstel-Bold';
+	padding-bottom: 8px;
 }
 .relevant-evnt-slide-item-dsc-title{
 	display: block;
@@ -251,6 +252,10 @@
 	color: #004C9B;
 	text-transform: uppercase;
 	margin-bottom: 0;
+	font-family: 'MontserratBlack';
+}
+.rf-team-member-sec-cntlr .relevant-evnt-slide-item-dsc-title{
+	font-family: 'TheSansAmstel-Black';
 }
 .relevant-evnt-slide-item-dsc-title a{
 	color: inherit;
@@ -261,31 +266,55 @@
 	color: #0a6ace;
 }
 
+.relevant-evnt-slider-sec-wrp .relevant-evnt-slide-item-img-cntlr span {
+    position: absolute;
+    background: #BCA279;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 13px;
+    padding: 5px 14px;
+    text-transform: uppercase;
+    font-family: 'TheSansAmstel-Bold';
+    line-height: 1;
+    top: 19px;
+    right: 17px;
+}
+.relevant-evnt-slider-sec-wrp .relevant-evnt-slide-item:nth-child(2) .relevant-evnt-slide-item-img-cntlr span{
+	background: #959595;
+}
+
 
 /*
 -----------------------
  Running Free
 -----------------------
 */
-.rf-team-member-sec-wrp .afrp-image-text-gird-block-cntlr {
+.rf-team-member-sec-wrp{
     margin-top: -65px;
-    max-width: 100%;
 }
-.rf-team-member-sec-wrp .afrp-image-text-gird-block{
+.rf-team-member-sec-cntlr{
 	background:#F4F4F4;
-	max-width: 100%;
-	padding: 45px 70px 70px;
+	padding-top: 45px;
+	position: relative;
+}
+.afrp-team-member-cntlr{
+	max-width: 1240px;
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 75px;
 }
 .rf-team-member-wrp{
 	padding-bottom: 65px;
 }
-.rf-team-member-tp-grid{
+.rf-team-member-tp-item{
 	text-align: center;
 	max-width: 310px;
 	width: 100%;
 	margin: 0 auto;
 }
-.rf-team-member-tp-grid-img{
+.rf-team-member-tp-item-img{
 	position: relative;
 	margin-bottom: 10px;
 	border-radius: 50% 50%;
@@ -293,11 +322,11 @@
     -ms-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.50);
     -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.50);
 }
-.rf-team-member-tp-grid-img img{
+.rf-team-member-tp-item-img img{
 	width: 100%;
 	height: 100%;
 }
-.rf-team-member-tp-grid-img:after{
+.rf-team-member-tp-item-img:after{
 	content: "";
 	position: absolute;
 	left: 0;
@@ -317,7 +346,7 @@
 	margin-bottom: 20px;
 	text-align: center;
 }
-.rf-team-member-tp-grid-txt span{
+.rf-team-member-tp-item-txt span{
 	display: inline-block;
 	vertical-align: baseline;
 	font-size: 30px;
@@ -328,21 +357,21 @@
 .rf-team-member-btm{
 	padding-top: 60px;
 }
-.rf-team-member-btm-grids ul{
+.rf-team-member-grid-item ul{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 }
-.rf-team-member-btm-grids ul li{
+.rf-team-member-grid-item ul li{
 	float: left;
 	width: 20%;
 	padding: 0 8px;
 }
-.rf-team-member-btm-grids{
+.rf-team-member-grid-item{
 	padding-top: 25px;
 }
-.rf-team-member-btm-grid-img{
+.rf-team-member-grid-item-img{
 	width: 100%;
 	border-radius: 50% 50%;
 	position: relative;
@@ -354,11 +383,11 @@
     -ms-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.50);
     -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.50);
 }
-.rf-team-member-btm-grid-img img{
+.rf-team-member-grid-item-img img{
 	width: 100%;
 	height: 100%;
 }
-.rf-team-member-btm-hover{
+.rf-team-member-grid-item-hover{
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -375,13 +404,13 @@
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 }
-.rf-team-member-btm-grid-img:hover .rf-team-member-btm-hover{
+.rf-team-member-grid-item-img:hover .rf-team-member-grid-item-hover{
 	opacity: 0.8;
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 }
-.rf-team-member-btm-grid-img:after{
+.rf-team-member-grid-item-img:after{
 	content: "";
 	position: absolute;
 	left: 0;
@@ -392,7 +421,7 @@
 	border-radius: 50% 50%;
 	opacity: 0.38;
 }
-.rf-team-member-btm-grid-inr span{
+.rf-team-member-grid-item-title{
 	display:block;
 	font-size: 15px;
 	line-height: 17px;
@@ -400,6 +429,7 @@
 	font-weight: 700;
 	text-align: center;
 	padding-top: 20px;
+	margin-bottom: 0;
 }
 
 .rf-team-member-sec-wrp .relevant-evnt-slider-cntlr{
@@ -417,7 +447,7 @@
 	background-color: #FFFFFF !important;
 }
 .rf-team-member-sec-wrp .relevant-evnt-slider-wrp {
-    padding: 0 20px;
+    padding: 0 30px;
 }
 .rf-team-member-sec-wrp .relevant-evnt-slider .slick-prev {
     left: -75px!important;
@@ -467,15 +497,20 @@
  Responsive Css
 ----------------------
 */
-
+@media(max-width: 1399px){
+	.rf-team-member-sec-wrp .relevant-evnt-slider-wrp {
+	    padding: 0 50px;
+	}
+}
 @media(max-width: 1199px){
+	.relevant-evnt-slider-wrp {
+	    padding: 0 50px;
+	}
 	.afrp-event-page-module-title {
 	    font-size: 40px;
 	}
-	.afrp-event-page-sec-wrp .afrp-image-text-gird-block {
-	    padding: 25px 80px 0;
-	}
-	.afrp-event-two-part-wrp, .afrp-event-page-dsc {
+	.afrp-event-two-part-wrp,
+	.afrp-event-page-dsc {
 	    padding-top: 60px;
 	    padding-left: 40px;
 	    padding-right: 40px;
@@ -510,7 +545,22 @@
 		display: none;
 	}
 	.afrp-event-page-sec-wrp .fl-account-page-entry-hdr {
-	    padding-left: 45px;
+	    padding-left: 55px;
+	}
+	.relevant-evnt-slider-sec-wrp .relevant-evnt-slider .slick-prev {
+	    left: -65px!important;
+	}
+	.relevant-evnt-slider-sec-wrp .relevant-evnt-slider .slick-next {
+	    right: -65px!important;
+	}
+	.relevant-evnt-slider .slick-prev,
+	.relevant-evnt-slider .slick-next{
+		width: 65px !important;
+		height: 65px !important;
+		background-size: 28px 10px!important;
+	}
+	.relevant-evnt-slide-item-dsc-title a br{
+		display: none;
 	}
 	
 
@@ -521,7 +571,7 @@
 	    font-size: 36px;
 	}
 	.afrp-event-page-sec-wrp .fl-account-page-entry-hdr {
-	    padding-left: 35px;
+	    padding-left: 45px;
 	}
 	.afrp-event-page-sec-wrp .afrp-event-page-module {
 	    padding-left: 40px;
@@ -571,7 +621,7 @@
 	.rf-team-member-title {
 	    font-size: 42px;
 	}
-	.rf-team-member-btm-grids ul li {
+	.rf-team-member-grid-item ul li {
 	    width: 25%;
 	    padding: 0 8px 20px;
 	}
@@ -611,6 +661,12 @@
 	.relevant-evnt-slider-wrp {
 	    padding: 0 40px;
 	}
+	.relevant-evnt-slider-sec-wrp .relevant-evnt-slider .slick-prev {
+	    left: -50px!important;
+	}
+	.relevant-evnt-slider-sec-wrp .relevant-evnt-slider .slick-next {
+	    right: -50px!important;
+	}
 	.relevant-evnt-slider .slick-prev {
 	    left: -60px!important;
 	}
@@ -631,7 +687,7 @@
 	    padding-bottom: 60px;
 	}
 	.rf-team-member-wrp {
-	    padding-bottom: 20px;
+	    padding-bottom: 0;
 	}
 	.rf-team-member-sec-wrp .relevant-evnt-slider-cntlr {
 	    padding-top: 30px;
@@ -639,16 +695,12 @@
 	.rf-team-member-title {
 	    font-size: 38px;
 	}
-	.rf-team-member-tp-grid-txt span{
+	.rf-team-member-tp-item-txt span{
 	    font-size: 28px;
 	    line-height: 30px;
 	}
-	.rf-team-member-btm-grids ul li {
+	.rf-team-member-grid-item ul li {
 	    width: 33.3333%;
-	}
-	.rf-team-member-btm-grid-inr span {
-	    font-size: 14px;
-	    line-height: 16px;
 	}
 	.rf-team-member-sec-wrp .afrp-image-text-gird-block {
 	    padding: 45px 50px 50px;
@@ -687,11 +739,11 @@
 	.rf-team-member-title {
 	    font-size: 34px;
 	}
-	.rf-team-member-tp-grid-txt span{
+	.rf-team-member-tp-item-txt span{
 	    font-size: 26px;
 	    line-height: 28px;
 	}
-	.rf-team-member-btm-grids ul li {
+	.rf-team-member-grid-item ul li {
 	    width: 50%;
 	}
 	.rf-team-member-sec-wrp .afrp-image-text-gird-block {
@@ -711,6 +763,10 @@
 		width: 40px !important;
 		height: 40px !important;
 		background-size: 22px 8px!important;
+	}
+	.relevant-evnt-slider-cntlr .af-default-btn {
+	    padding: 18px 20px;
+	    min-width: 230px;
 	}
 
 }
@@ -734,6 +790,12 @@
 	.relevant-evnt-slider .slick-next {
 	    right: -35px!important;
 	}
+	.relevant-evnt-slider-sec-wrp .relevant-evnt-slider .slick-prev{
+	    left: -35px!important;
+	}
+	.relevant-evnt-slider-sec-wrp .relevant-evnt-slider .slick-next {
+	    right: -35px!important;
+	}
 	.relevant-evnt-slide-item-dsc-title {
 	    font-size: 19px;
 	}
@@ -746,18 +808,29 @@
 	.rf-team-member-title {
 	    font-size: 26px;
 	}
-	.rf-team-member-btm-grids ul li {
+	.rf-team-member-grid-item ul li {
 	    width: 100%;
 	}
-	.rf-team-member-tp-grid-txt span {
+	.rf-team-member-tp-item-txt span {
 	    font-size: 22px;
 	    line-height: 24px;
+	    padding-top: 10px;
 	}
 	.relevant-evnt-slide-item-img{
 		height: 220px !important;
 	}
 	.afrp-event-page-sec-wrp .fl-account-page-entry-hdr {
 	    padding-left: 15px;
+	}
+	.rf-team-member-tp-item-img{
+		max-width: 280px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.rf-team-member-grid-item-img{
+		max-width: 180px;
+		width: 100%;
+		margin: 0 auto;
 	}
 
 }
