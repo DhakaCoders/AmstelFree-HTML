@@ -216,11 +216,11 @@
 	padding: 0 25px 25px 25px;
 }
 .running-item-desc span{
-	display: inline-block;
+	display: block;
 	color: #004C9B;
 	font-size: 14px;
 	font-family: 'TheSansAmstel-Bold';
-	margin-bottom: 20px;
+	margin-bottom: 8px;
 	text-transform: uppercase;
 
 }

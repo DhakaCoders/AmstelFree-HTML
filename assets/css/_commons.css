@@ -252,6 +252,9 @@ form .bootstrap-select .caret{
 	margin: 0;
 	border: 0;
 }
+.bootstrap-select>.dropdown-toggle{
+	border: 0;
+}
 .bootstrap-select>.dropdown-toggle.bs-placeholder,
 .bootstrap-select>.dropdown-toggle.bs-placeholder:active,
 .bootstrap-select>.dropdown-toggle.bs-placeholder:focus, 

@@ -98,7 +98,8 @@
 }
 .page-banner-title{
 	font-size: 50px;
-	font-family: 'TheSansAmstel-Bold';
+	font-family: 'TheSansAmstel-Black';
+	text-shadow: 0px 8px 20px rgba(0,0,0,.1);
 	text-transform: uppercase;
 	margin-bottom: 2px;
 }
@@ -177,6 +178,15 @@
 .main-banner-slider-cntlr{
 	position: relative;
 	z-index: 23;
+}
+.main-banner-slider .banner-slider-item{
+	display: none;
+}
+.main-banner-slider .banner-slider-item:nth-of-type{
+	display: block;
+}
+.main-banner-slider.slick-initialized .banner-slider-item{
+	display: block;
 }
 .mn-bnr-scrll-btn{
 	position: absolute;
