@@ -61,6 +61,9 @@
 	background: #004C9B;
 	color: #fff;
 }
+.rng-items-list-btn a.active i svg{
+	fill: #fff;
+}
 .rng-items-list-btn a i{
 	position: absolute;
 	left: 10px;
