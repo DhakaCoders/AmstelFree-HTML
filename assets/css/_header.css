@@ -17,6 +17,8 @@
 .logo{
 	position: absolute;
 	left: 50%;
+	-ms-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
 }
 .logo a{
@@ -35,6 +37,8 @@
 	position: absolute;
 	content: "";
 	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 	left: 0;
 	height: 51px;
@@ -74,13 +78,53 @@
 	-webkit-transition: all 0.5s;
 }
 .humbergar-icon:hover span:nth-child(2){
+	-ms-transform: translateX(-3px);
+	-webkit-transform: translateX(-3px);
 	transform: translateX(-3px);
 }
 .humbergar-icon:hover span:nth-child(1),
 .humbergar-icon:hover span:nth-child(3){
+	-ms-transform: translateX(3px);
+	-webkit-transform: translateX(3px);
 	transform: translateX(3px);
 }
 
+
+/*fixed header*/
+.fixed-hdr{
+	min-height: 66px;
+	position: fixed;
+	padding: 0 22px 0 25px;
+	top: -100px;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	background: #004C9B;
+	z-index: 9999;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.hasSticky header.header .fixed-hdr{
+	opacity: 1;
+	top: 0;
+}
+.fixed-hdr .logo{
+	position: initial;
+    left: initial;
+    -ms-transform: initial;
+    -webkit-transform: initial;
+    transform: initial;
+}
+.fixed-hdr .logo a{
+	max-width: 66px;
+}
+.fixed-hdr .humbergar-cntlr:after{
+	content: none!important;
+}
 
 
 /*mobile header*/
@@ -168,13 +212,15 @@
 	line-height: 1.2;
 	color: #6A9BCE;
 	text-transform: uppercase;
+	text-shadow: 0px 8px 20px rgba(0,0,0,.1);
 }
-.mbl-nav > ul > li > a span{
+.mbl-nav > ul > li > a strong{
 	color: #ffffff;
 	position: relative;
 	z-index: 2;
+
 }
-.mbl-nav > ul > li > a span:after{
+.mbl-nav > ul > li > a strong:after{
 	position: absolute;
 	content: "";
 	bottom: 4px;
@@ -185,6 +231,9 @@
 	width: 257px;
 	background: #b68f4a;
 }
+.mbl-nav > ul > li > a span{
+	font-family: 'TheSansAmstel-Plain';
+}
 .mbl-nav > ul > li > a:hover{
 	/*color: #b5c2d0;*/
 	color: #fff;
@@ -192,6 +241,7 @@
 .mobile-hdr-ftr-menu{
 	padding: 0 100px;
 	padding-top: 180px;
+	padding-bottom: 60px;
 }
 .mobile-hdr-ftr-menu > ul{
 	display: flex;

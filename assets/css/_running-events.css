@@ -36,6 +36,8 @@
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
 	line-height: 1;
 	margin-top: -1px;
@@ -69,6 +71,8 @@
 	left: 10px;
 	top: 50%;
 	margin-top: -3px;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
 .rng-items-list-btn a i svg{
@@ -216,11 +220,11 @@
 	padding: 0 25px 25px 25px;
 }
 .running-item-desc span{
-	display: inline-block;
+	display: block;
 	color: #004C9B;
 	font-size: 14px;
 	font-family: 'TheSansAmstel-Bold';
-	margin-bottom: 20px;
+	margin-bottom: 8px;
 	text-transform: uppercase;
 
 }

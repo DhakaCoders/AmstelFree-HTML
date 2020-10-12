@@ -1,6 +1,4 @@
 
-
-
 .ftr-top-glry{
 	padding-bottom: 5px;
 }
@@ -8,6 +6,8 @@
 	float: left;
 	width: 20%;
 }
+
+
 .ftr-top-glry-item-img{
 	height: 265px;
 }
@@ -27,16 +27,13 @@
 	color: #004C9B;
 	font-size: 30px;
 }
-.ftr-top-glry-item-des-ctlr a:hover{
-	color: #C19E61;
-}
+
 .ftr-top-glry-item-title{
 	display: block;
 	font-size: 34px;
 	line-height: 1;
 	margin-bottom: 0;
 	font-family: 'TheSansAmstel-CondensedBold';
-	font-weight: 700;
 	color: #004C9B;
 	text-transform: uppercase;
 	padding-bottom: 18px;
@@ -78,11 +75,8 @@
 	color: #fff;
 	text-transform: uppercase;
 	font-family: 'TheSansAmstel-Black';
-	font-weight: 900;
 }
-.ftr-menu ul li a:hover{
-	color: #C19E61;
-}
+
 
 .ftr-socials-media ul li{
 	display: inline-block;
@@ -102,10 +96,7 @@
 	font-size: 22px;
 	color: #004C9B;
 }
-.ftr-socials-media ul li a:hover{
-	background: #C19E61;
-	color: #fff;
-}
+
 
 
 
@@ -119,6 +110,20 @@
 .ftr-rgt-logo a{
 	display: inline-block;
 	vertical-align: baseline;
+}
+.ftr-rgt-logo a span{
+	font-size: 12px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-right: 8px;
+	font-family: 'TheSansAmstel-Bold';
+	opacity: 0;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+}
+.ftr-rgt-logo a:hover span{
+	opacity: 1;
 }
 .ftr-top-logo a img{
 	display: block;
@@ -161,6 +166,5 @@
 	color: #000000;
 	margin-bottom: 0;
 	font-family: 'TheSansAmstel-SemiLight';
-	font-weight: 300;
 }
 

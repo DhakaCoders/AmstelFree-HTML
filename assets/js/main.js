@@ -263,6 +263,16 @@ if (windowWidth <= 1920) {
      /* $('body').removeClass('active-scroll-off');*/
     });
   }
+
+
+
+  $(window).scroll(function(){
+  var sticky = $('header.header'),
+      scroll = $(window).scrollTop();
+
+  if (scroll >= 100) $('body').addClass('hasSticky');
+  else $('body').removeClass('hasSticky');
+});
 /*----- end of Noyon -----*/
 
 

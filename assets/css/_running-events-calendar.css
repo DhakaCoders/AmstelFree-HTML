@@ -47,8 +47,7 @@
 	background: #fff;
 }
 .running-list-name{
-	max-width: 460px;
-	width: 100%;
+	width: 42.35%;
 	display: flex;
 	align-items: center;
 	padding-left: 25px;
@@ -62,8 +61,7 @@
 	text-transform: uppercase;
 }
 .running-list-location{
-	max-width: 266px;
-	width: 100%;
+	width: 24.81%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -80,8 +78,7 @@
 	font-family: 'TheSansAmstel-Black';
 }
 .running-list-date{
-	max-width: 140px;
-	width: 100%;
+	width: 13.05%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -98,8 +95,7 @@
 	font-family: 'TheSansAmstel-Black';
 }
 .running-list-title-nm{
-	max-width: 137px;
-	width: 100%;
+	width: 12.77%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -116,8 +112,7 @@
 	margin-bottom: 0;
 }
 .running-list-btn{
-	max-width: 75px;
-	width: 100%;
+	width: 6.99%;
 	height: 57px;
 	display: flex;
 	align-items: center;
@@ -150,23 +145,9 @@
 }
 .running-lists-btn{
 	padding-bottom: 50px;
+	text-align: center;
 
 }
 .running-lists-btn a{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 12px;
-	font-family: 'TheSansAmstel-Bold';
-	color: #fff;
-	background: #004C9B;
-	line-height: 1;
-	margin-bottom: 0;
-	width: 248px;
-	height: 53px;
-	margin-left: auto;
-	margin-right: auto;
-}
-.running-lists-btn a:hover{
-	background: #0a3d71;
+
 }
