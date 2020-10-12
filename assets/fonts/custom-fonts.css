@@ -1,24 +1,4 @@
-@font-face {
-    font-family: 'HelveticaNeueCyr-Medium';
-    src: url('HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'),
-    url('HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.otf')  format('opentype'),
-    url('HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.woff') format('woff'),
-    url('HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.ttf')  format('truetype'),
-    url('HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.svg#HelveticaNeueCyr-Medium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 
-@font-face {
-    font-family: 'HelveticaNeueCyr-Roman';
-    src: url('HelveticaNeueCyr-Roman/HelveticaNeueCyr-Roman.eot?#iefix') format('embedded-opentype'),
-    url('HelveticaNeueCyr-Roman/HelveticaNeueCyr-Roman.otf')  format('opentype'),
-    url('HelveticaNeueCyr-Roman/HelveticaNeueCyr-Roman.woff') format('woff'),
-    url('HelveticaNeueCyr-Roman/HelveticaNeueCyr-Roman.ttf')  format('truetype'),
-    url('HelveticaNeueCyr-Roman/HelveticaNeueCyr-Roman.svg#HelveticaNeueCyr-Roman') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 @font-face {
     font-family: 'OpenSansBold';
     src: url('OpenSansBold/OpenSansBold.eot');
@@ -28,3 +8,83 @@
          url('OpenSansBold/OpenSansBold.ttf') format('truetype'),
          url('OpenSansBold/OpenSansBold.svg#OpenSansBold') format('svg');
 }
+
+@font-face {
+    font-family: 'TheSansAmstel SemiLight';
+    src: url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.eot');
+    src: url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.eot?#iefix') format('embedded-opentype'),
+        url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.woff2') format('woff2'),
+        url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.woff') format('woff'),
+        url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.ttf') format('truetype'),
+        url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.svg#TheSansAmstel-SemiLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TheSansAmstel';
+    src: url('TheSansAmstel-Plain/TheSansAmstel-Plain.eot');
+    src: url('TheSansAmstel-Plain/TheSansAmstel-Plain.eot?#iefix') format('embedded-opentype'),
+        url('TheSansAmstel-Plain/TheSansAmstel-Plain.woff2') format('woff2'),
+        url('TheSansAmstel-Plain/TheSansAmstel-Plain.woff') format('woff'),
+        url('TheSansAmstel-Plain/TheSansAmstel-Plain.ttf') format('truetype'),
+        url('TheSansAmstel-Plain/TheSansAmstel-Plain.svg#TheSansAmstel-Plain') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TheSansAmstel Condensed';
+    src: url('TheSansAmstel-CondensedPlain/TheSansAmstel-CondensedPlain.eot');
+    src: url('TheSansAmstel-CondensedPlain/TheSansAmstel-CondensedPlain.eot?#iefix') format('embedded-opentype'),
+        url('TheSansAmstel-CondensedPlain/TheSansAmstel-CondensedPlain.woff2') format('woff2'),
+        url('TheSansAmstel-CondensedPlain/TheSansAmstel-CondensedPlain.woff') format('woff'),
+        url('TheSansAmstel-CondensedPlain/TheSansAmstel-CondensedPlain.ttf') format('truetype'),
+        url('TheSansAmstel-CondensedPlain/TheSansAmstel-CondensedPlain.svg#TheSansAmstel-CondensedPlain') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TheSansAmstel Condensed';
+    src: url('TheSansAmstel-CondensedBold/TheSansAmstel-CondensedBold.eot');
+    src: url('TheSansAmstel-CondensedBold/TheSansAmstel-CondensedBold.eot?#iefix') format('embedded-opentype'),
+        url('TheSansAmstel-CondensedBold/TheSansAmstel-CondensedBold.woff2') format('woff2'),
+        url('TheSansAmstel-CondensedBold/TheSansAmstel-CondensedBold.woff') format('woff'),
+        url('TheSansAmstel-CondensedBold/TheSansAmstel-CondensedBold.ttf') format('truetype'),
+        url('TheSansAmstel-CondensedBold/TheSansAmstel-CondensedBold.svg#TheSansAmstel-CondensedBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TheSansAmstel';
+    src: url('TheSansAmstel-Bold/TheSansAmstel-Bold.eot');
+    src: url('TheSansAmstel-Bold/TheSansAmstel-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TheSansAmstel-Bold/TheSansAmstel-Bold.woff2') format('woff2'),
+        url('TheSansAmstel-Bold/TheSansAmstel-Bold.woff') format('woff'),
+        url('TheSansAmstel-Bold/TheSansAmstel-Bold.ttf') format('truetype'),
+        url('TheSansAmstel-Bold/TheSansAmstel-Bold.svg#TheSansAmstel-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TheSansAmstel';
+    src: url('TheSansAmstel-Black/TheSansAmstel-Black.eot');
+    src: url('TheSansAmstel-Black/TheSansAmstel-Black.eot?#iefix') format('embedded-opentype'),
+        url('TheSansAmstel-Black/TheSansAmstel-Black.woff2') format('woff2'),
+        url('TheSansAmstel-Black/TheSansAmstel-Black.woff') format('woff'),
+        url('TheSansAmstel-Black/TheSansAmstel-Black.ttf') format('truetype'),
+        url('TheSansAmstel-Black/TheSansAmstel-Black.svg#TheSansAmstel-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+

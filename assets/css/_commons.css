@@ -20,12 +20,14 @@ body {
     color: #3B3B3B;
     font-size: 17px;
     line-height: 24px;
+    font-family: 'TheSansAmstel';
+    font-weight: 400;
 }
 p{
 	font-size: 17px;
 	line-height: 1.2;
 	margin-bottom: 15px;
-	font-family: 'HelveticaNeueCyr-Roman';
+	font-family: 'TheSansAmstel';
 }
 /*-- app gap use pattern --*/
 /*data-xxs = 575
@@ -357,7 +359,8 @@ form .dropdown-menu li a{
 	font-size: 12px;
 	line-height: 1;
 	text-transform: uppercase;
-	font-family: 'HelveticaNeueCyr-Roman';
+	font-family: 'TheSansAmstel';
+	font-weight: 700;
 	background: #004C9B;
 	display: inline-block;
 	vertical-align: baseline;
