@@ -21,6 +21,7 @@ body {
     font-size: 17px;
     line-height: 24px;
     font-family: 'TheSansAmstel-Plain';
+    /*font-family: 'Montserrat', sans-serif;*/
 }
 p{
 	font-size: 17px;
@@ -244,6 +245,7 @@ form .bootstrap-select .caret{
 	font-size: 12px;
 	color: #000000;
 	background: transparent;
+	text-transform: uppercase;
 }
 .bootstrap-select .dropdown-menu.show{
 	padding: 0;
@@ -264,6 +266,7 @@ form .bootstrap-select .caret{
 	font-size: 12px;
 	color: #000000;
 	padding-top: 3px;
+	text-transform: uppercase;
 }
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
 	background: #004c9a;
