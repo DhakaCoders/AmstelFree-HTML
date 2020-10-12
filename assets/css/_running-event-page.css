@@ -66,6 +66,9 @@
 	padding-left: 50px;
 	padding-right: 50px;
 }
+.afrp-event-page-dsc{
+	padding-right: 60px;
+}
 .afrp-event-page-dsc span{
 	display: inline-block;
 	vertical-align: baseline;
@@ -77,6 +80,7 @@
 }
 .afrp-event-page-dsc p{
 	margin-bottom: 30px;
+	font-size: 18px;
 	line-height: 1.6;
 }
 
