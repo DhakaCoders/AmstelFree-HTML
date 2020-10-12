@@ -180,7 +180,6 @@
 	font-size: 52px;
 	line-height: 1;
 	margin-bottom: 28px;
-	font-weight: 900;
 	color: #fff;
 	text-transform: uppercase;
 }
@@ -197,11 +196,11 @@
 .product-grd-item-ctlr{
 	overflow: hidden;
 }
-.product-grd-item:hover .product-grd-item-img{
+/*.product-grd-item:hover .product-grd-item-img{
 	transform: scale(1.05);
 	-webkit-transform: scale(1.05);
 	-ms-transform: scale(1.05);
-}
+}*/
 
 
 
