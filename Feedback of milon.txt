@@ -19,3 +19,52 @@ Desktop-->
 
 	jodi amon hoy j, just amader kache regular font-family ta ache.
 	r use korte hobe bold ta , tahole tokhon amara font-weight diye manage korbo.
+
+	N.B:--> sob page ar text valo kore chek kore update kore felte hobe
+
+4. i) https://prnt.sc/uxyojq
+	class ar name change koro 
+	ata daw--> '.rf-team-member-grid-item'
+   ii) https://prnt.sc/uxypgc
+   		ai class thake 'btm' ta tule daw
+
+5. https://prnt.sc/uxyupr
+	flex use hobe, akta item bere gele center a asbe.
+
+6. https://prnt.sc/uxyvpb
+	link hobe, class hobe
+
+7. https://prnt.sc/uxyw2i
+	 white ber hoye ache.
+
+8. https://prnt.sc/uxz40u
+	title ar text mileni 
+
+9. https://prnt.sc/uxz4io
+	gap beshi 
+
+10. https://prnt.sc/uxz5q8
+	ata kono grd na , aikhane aktai thakbe . grd kotha ta tule onno kichu daw
+
+
+
+RUNNING FREE-profile
+--------------------------
+--------------------------
+
+Desktop-->
+
+1. https://prnt.sc/uxzbl9
+	i) border ta aikhan thake suru hobe
+	ii) hover color blue ta valo lagtechena
+
+2. https://prnt.sc/uxzg89
+	ai grd gulote airkon highlight text add hote pare. noyon ar ai page ta dekhe update kore felo
+
+
+3. 
+
+
+
+
+
