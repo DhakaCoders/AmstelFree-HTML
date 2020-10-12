@@ -61,6 +61,7 @@
 	position: absolute;
 	left: 10px;
 	top: 50%;
+	margin-top: -3px;
 	transform: translateY(-50%);
 }
 
@@ -235,6 +236,7 @@
 .pagination-cntlr > ul > li > span{
 	color: #004C9B;
 	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
 	display: inline-block;
 }
@@ -247,7 +249,7 @@
 .pagination-cntlr > ul > li > a.current,
 .pagination-cntlr > ul > li > span.current{
 	color: #1a4675;
-	font-weight: 900;
+	font-family: 'TheSansAmstel-Black';
 }
 .pagination-cntlr > ul > li > a:hover{
 	color:#0a2e52; 
