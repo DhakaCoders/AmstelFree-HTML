@@ -83,26 +83,29 @@
 	overflow: hidden;
 	min-height: 336px;
 }
-.pg-bnr-no-desc{
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.pg-bnr-desc{
+	padding-top: 60px;
 }
 .page-banner-inr{
-	padding: 16px 50px 20px 50px;
+	padding: 50px 50px 20px 50px;
 	color: #fff;
 	text-align: center;
 	position: relative;
 	z-index: 2;
 }
+.pg-bnr-desc{
+	padding: 12px 50px 20px 50px;
+}
 .page-banner-title{
 	font-size: 50px;
-	font-weight: 900;
-	line-height: 1;
+	font-family: 'TheSansAmstel-Bold';
+	text-transform: uppercase;
 	margin-bottom: 2px;
 }
 .page-banner-inr p{
 	margin-bottom: 0;
+	font-family: 'TheSansAmstel-SemiLight';
+	font-size: 16px;
 }
 
 .page-bnr-top-lft-animt-icon{
@@ -214,8 +217,7 @@
 .banner-slider-title{
 	margin-bottom: 0;
 	font-size: 53px;
-	font-weight: 900;
-	line-height: 1;
+	font-family: 'TheSansAmstel-Bold';
 	color: #fff;
 	text-transform: uppercase;
 	z-index: 3;

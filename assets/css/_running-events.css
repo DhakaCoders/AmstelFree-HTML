@@ -97,7 +97,7 @@
 	color: #3E3935;
 	font-size: 12px;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-family: 'TheSansAmstel-Bold';
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -188,7 +188,7 @@
 	border-radius: 50px;
 	font-size: 13px;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-family: 'TheSansAmstel-Bold';
 	line-height: 1;
 	top: 19px;
 	right: 17px;
@@ -200,17 +200,17 @@
 	display: inline-block;
 	color: #004C9B;
 	font-size: 14px;
-	font-weight: 700;
+	font-family: 'TheSansAmstel-Bold';
 	margin-bottom: 20px;
 	text-transform: uppercase;
 
 }
 .running-item-desc-title{
 	font-size: 24px;
-	font-weight: 900;
 	line-height: 1.1;
 	margin-bottom: 5px;
 	text-transform: uppercase;
+	font-family: 'TheSansAmstel-Black';
 }
 .running-item-desc-title a{
 	display: inline-block;

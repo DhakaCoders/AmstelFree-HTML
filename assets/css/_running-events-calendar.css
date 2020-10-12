@@ -25,7 +25,7 @@
 .running-lists-hding-month{
 	color: #004A99;
 	font-size: 16px;
-	font-weight: 900;
+	font-family: 'TheSansAmstel-Black';
 	line-height: 1;
 	margin-bottom: 0;
 }
@@ -33,7 +33,7 @@
 	display: inline-block;
 	color: #004A99;
 	font-size: 12px;
-	font-weight: 700;
+	font-family: 'TheSansAmstel-Bold';
 	line-height: 1;
 	margin-bottom: 0;
 	text-transform: capitalize;
@@ -60,7 +60,7 @@
 .running-list-name p{
 	color: #004A99;
 	font-size: 14px;
-	font-weight: 900;
+	font-family: 'TheSansAmstel-Black';
 	line-height: 1;
 	margin-bottom: 0;
 	text-transform: uppercase;
@@ -75,13 +75,13 @@
 .running-list-location p{
 	color: #004A99;
 	font-size: 14px;
-	font-weight: 700;
 	line-height: 1;
 	margin-bottom: 0;
 	text-transform: uppercase;
+	font-family: 'TheSansAmstel-Bold';
 }
 .running-list-location p span{
-	font-weight: 900;
+	font-family: 'TheSansAmstel-Black';
 }
 .running-list-date{
 	max-width: 140px;
@@ -93,13 +93,13 @@
 .running-list-date p{
 	color: #004A99;
 	font-size: 14px;
-	font-weight: 700;
+	font-family: 'TheSansAmstel-Bold';
 	line-height: 1;
 	margin-bottom: 0;
 	text-transform: uppercase;
 }
 .running-list-date p span{
-	font-weight: 900;
+	font-family: 'TheSansAmstel-Black';
 }
 .running-list-title-nm{
 	max-width: 137px;
@@ -116,7 +116,7 @@
 	border-radius: 50px;
 	font-size: 13px;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-family: 'TheSansAmstel-Bold';
 	line-height: 1;
 	margin-bottom: 0;
 	display: flex;
@@ -165,7 +165,7 @@
 	justify-content: center;
 	align-items: center;
 	font-size: 12px;
-	font-weight: 700;
+	font-family: 'TheSansAmstel-Bold';
 	color: #fff;
 	background: #004C9B;
 	line-height: 1;
