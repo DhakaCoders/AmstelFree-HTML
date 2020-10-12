@@ -82,6 +82,35 @@
 }
 
 
+/*fixed header*/
+.fixed-hdr{
+	min-height: 66px;
+	position: relative;
+	padding: 0 22px 0 25px;
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: #004C9B;
+	z-index: 9999;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+/*.fixed-hdr:hover .page-bnr-top-lft-animt-icon{
+	top: -60px;
+	left: -60px;
+}*/
+.fixed-hdr .logo{
+	left: 60px;
+}
+.fixed-hdr .logo a{
+	max-width: 66px;
+}
+.fixed-hdr .humbergar-cntlr:after{
+	content: none!important;
+}
+
 
 /*mobile header*/
 .mobile-hdr{
@@ -168,13 +197,15 @@
 	line-height: 1.2;
 	color: #6A9BCE;
 	text-transform: uppercase;
+	text-shadow: 0px 8px 20px rgba(0,0,0,.1);
 }
-.mbl-nav > ul > li > a span{
+.mbl-nav > ul > li > a strong{
 	color: #ffffff;
 	position: relative;
 	z-index: 2;
+
 }
-.mbl-nav > ul > li > a span:after{
+.mbl-nav > ul > li > a strong:after{
 	position: absolute;
 	content: "";
 	bottom: 4px;
@@ -185,6 +216,9 @@
 	width: 257px;
 	background: #b68f4a;
 }
+.mbl-nav > ul > li > a span{
+	font-family: 'TheSansAmstel-Plain';
+}
 .mbl-nav > ul > li > a:hover{
 	/*color: #b5c2d0;*/
 	color: #fff;
@@ -192,6 +226,7 @@
 .mobile-hdr-ftr-menu{
 	padding: 0 100px;
 	padding-top: 180px;
+	padding-bottom: 60px;
 }
 .mobile-hdr-ftr-menu > ul{
 	display: flex;
