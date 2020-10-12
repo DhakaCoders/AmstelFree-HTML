@@ -8,6 +8,10 @@ afrp-image-text-gird-sec-wrp
 }
 .afrp-image-text-gird-block-cntlr{
 	margin-top: -220px;
+    max-width: 1220px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .afrp-image-text-gird-block{
 	background:#fff;
@@ -18,7 +22,7 @@ afrp-image-text-gird-sec-wrp
 }
 .afrp-image-text-grid-fea-img{
 	float: left;
-	width: 50%;
+	width: 48%;
 	min-height: 560px;
 	background-size: cover!important;
     background-repeat: no-repeat!important;
@@ -26,9 +30,9 @@ afrp-image-text-gird-sec-wrp
 }
 .afrp-image-text-grid-dsc {
     float: left;
-    width: 50%;
-    padding-left: 55px;
-    padding-right: 55px;
+    width: 52%;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .afrp-image-text-grid-dsc p{
 	font-size: 18px;
@@ -48,8 +52,7 @@ afrp-image-text-gird-sec-wrp
 	font-size: 46px;
 	line-height: 1;
 	color: #004C9B;
-	font-weight: 900;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 
 .afrp-fancy-module {
@@ -115,7 +118,6 @@ afrp-image-text-gird-sec-wrp
     vertical-align: baseline;
     font-size: 12px;
     line-height: 14px;
-    font-weight: 900;
     color: #fff;
     text-transform: uppercase;
     max-width: 125px;
@@ -123,12 +125,14 @@ afrp-image-text-gird-sec-wrp
     transform: all 0.5s;
     -ms-transform: all 0.5s;
     -webkit-transform: all 0.5s;
+    font-family: 'TheSansAmstel-Black';
 }
 .fl-account-page-entry-hdr a span{
     display: block;
     vertical-align: baseline;
     line-height: 100%;
     text-align: right;
+    margin-bottom: -2px;
 }
 .fl-account-page-entry-hdr a i{
 	padding-right: 10px;

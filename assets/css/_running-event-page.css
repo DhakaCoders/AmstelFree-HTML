@@ -49,7 +49,7 @@
 	line-height: 14px;
 	color: #004C9B;
 	padding-left: 20px;
-	font-family: 'OpenSansBold';
+	font-weight: 700;
 }
 .afrp-event-page-module-title{
 	display: block;
@@ -57,7 +57,6 @@
 	line-height: 1;
 	color: #004C9B;
 	text-transform: uppercase;
-	font-weight: 900;
 	margin-bottom: 25px;
 	margin-top: 18px;
 }
@@ -175,7 +174,6 @@
 	font-size: 40px;
 	line-height: 1;
 	color: #FFFFFF;
-	font-weight: 900;
 	margin-bottom: 55px;
 	text-transform: uppercase;
 	text-align: center;
@@ -249,7 +247,6 @@
 	display: block;
 	font-size: 24px;
 	line-height: 1.1;
-	font-weight: 900;
 	color: #004C9B;
 	text-transform: uppercase;
 	margin-bottom: 0;
@@ -271,6 +268,7 @@
 */
 .rf-team-member-sec-wrp .afrp-image-text-gird-block-cntlr {
     margin-top: -65px;
+    max-width: 100%;
 }
 .rf-team-member-sec-wrp .afrp-image-text-gird-block{
 	background:#F4F4F4;
@@ -314,7 +312,6 @@
 	font-size: 50px;
 	line-height: 1;
 	color: #004C9B;
-	font-weight: 900;
 	text-transform: uppercase;
 	margin-bottom: 20px;
 	text-align: center;
@@ -325,7 +322,7 @@
 	font-size: 30px;
 	line-height: 32px;
 	color: #004C9B;
-	font-weight: 900;
+	font-family: 'TheSansAmstel-Black';
 }
 .rf-team-member-btm{
 	padding-top: 60px;
