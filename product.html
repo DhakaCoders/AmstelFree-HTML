@@ -308,6 +308,7 @@
             <li>
               <div class="product-grd-item-ctlr">
                 <div class="product-grd-item">
+                  <a href="#" class="overlay-link" data-toggle="modal" data-target="#product-modal"></a>
                   <div class="product-grd-item-des-img-ctlr">
                     <div class="product-grd-item-img inline-bg" style="background: url('assets/images/product-grd-item-img-01.jpg');"></div>
                     <div class="product-grd-item-des">
@@ -319,7 +320,7 @@
                           <!-- <img src="assets/images/product-grd-item-rgt-arrow.svg"> -->
                         </i>
                       </a>
-                      <h2 class="product-grd-item-des-title">ΓΕΥΣΤΙΚΟΙ ΣΥΝΔΥΑΣΜΟΙ</h2>
+                      <h2 class="product-grd-item-des-title">ΓΕΥΣΤΙΚΟΙ <br> ΣΥΝΔΥΑΣΜΟΙ</h2>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget eleifend est, sed vehicula lorem. Nam in velit pretium, vulputate.</p>
                     </div>
                   </div>
@@ -340,7 +341,7 @@
                           <!-- <img src="assets/images/product-grd-item-rgt-arrow.svg"> -->
                         </i>
                       </a>
-                      <h2 class="product-grd-item-des-title">ΤΕΛΕΙΟ ΣΕΡΒΙΡΙΣΜΑ</h2>
+                      <h2 class="product-grd-item-des-title">ΤΕΛΕΙΟ <br> ΣΕΡΒΙΡΙΣΜΑ</h2>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget eleifend est, sed vehicula lorem. Nam in velit pretium, vulputate.</p>
                       
                     </div>
@@ -359,6 +360,39 @@
 </section>
 
 
+<!-- modal -->
+<div class="modal fade" id="product-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="padding-right:0;">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="product-modal-content-ctlr">
+
+          <div class="product-modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <img src="assets/images/modal-close-btn.png">
+            </button>
+            <div class="product-modal-img-ctlr">
+              <div class="product-modal-img inline-bg" style="background:url(assets/images/product-grd-item-img-01.jpg);">
+              </div>
+              <div class="product-modal-img-des">
+                <h2 class="product-modal-img-title">ΓΕΥΣΤΙΚΟΙ ΣΥΝΔΥΑΣΜΟΙ</h2>
+              </div>
+            </div>
+            <div class="product-modal-des">
+              <p>Η δροσιστική και ισορροπημένη γεύση της ΑΜΣΤΕΛ Free ταιριάζει με λαχανικά, με πράσινες σαλάτες ή και με σαλάτες που περιέχουν κάποιο ελαφρύ κρεατικό.</p>
+              <strong>ΣΑΛΑΤΑ ΜΕ ΨΗΤΟ ΚΟΤΟΠΟΥΛΟ & ΑΜΣΤΕΛ FREE</strong>
+              <p>Η γεμάτη γεύση της ΑΜΣΤΕΛ Free ταιριάζει ιδανικά με τον όγκο που χαρίζει στη σαλάτα μας το ψητό κοτόπουλο, ενώ η δροσιστική της αίσθηση συνδυάζεται ιδανικά με τα πράσινα στοιχεία του πιάτου, δίνοντας ένα αρμονικό, ζουμερό αποτέλεσμα.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- end of modal -->
+
+
 <section class="product-information-sec">
   <div class="container-fluid">
     <div class="row">
@@ -369,12 +403,16 @@
               <h6 class="pro-info-left-title"><strong>ΔΙΑΤΡΟΦΙΚΕΣ ΠΛΗΡΟΦΟΡΙΕΣ</strong> <span> ανά 100ml</span></h6>
               <ul class="clearfix">
                 <li class="clearfix">
-                  <strong>Ενέργεια</strong>
-                  <span>25Kcal - 105KJ</span>
+                  <div class="pro-info-item clearfix">
+                    <strong>Ενέργεια</strong>
+                    <span>25Kcal - 105KJ</span>
+                  </div>
                 </li>
                 <li class="clearfix">
-                  <strong>Πρωτεΐνες</strong>
-                  <span>0,3gr</span>
+                  <div class="pro-info-item clearfix">
+                    <strong>Πρωτεΐνες</strong>
+                    <span>0,3gr</span>
+                  </div>
                 </li>
                 <li class="clearfix">
                   <div class="pro-info-item clearfix">
@@ -453,16 +491,19 @@
           <ul class="reset-list clearfix">
             <li>
               <div class="ftr-top-glry-item">
+                
                 <div class="ftr-top-glry-item-img inline-bg" style="background: url('assets/images/ftr-top-glry-item-img-01.jpg');"></div>
               </div>
             </li>
             <li>
               <div class="ftr-top-glry-item">
+                
                 <div class="ftr-top-glry-item-img inline-bg" style="background: url('assets/images/ftr-top-glry-item-img-02.jpg');"></div>
               </div>
             </li>
             <li>
               <div class="ftr-top-glry-item">
+
                 <!-- <div class="ftr-fancy-glry-item-img">
                   
                 </div> -->
@@ -476,11 +517,13 @@
             </li>
             <li>
               <div class="ftr-top-glry-item">
+                
                 <div class="ftr-top-glry-item-img inline-bg" style="background: url('assets/images/ftr-top-glry-item-img-03.jpg');"></div>
               </div>
             </li>
             <li>
               <div class="ftr-top-glry-item">
+                
                 <div class="ftr-top-glry-item-img inline-bg" style="background: url('assets/images/ftr-top-glry-item-img-04.jpg');"></div>
               </div>
             </li>
@@ -516,7 +559,10 @@
               <a href="#"><img src="assets/images/ftr-top-logo.png"><img src="assets/images/ftr-top-logo-text.png"></a>
             </div>
             <div class="ftr-rgt-logo">
-              <a href="#"><img src="assets/images/ftr-rgt-logo.png"></a>
+              <a href="#">
+                <span>amstel.gr</span>
+                <img src="assets/images/ftr-rgt-logo.png">
+              </a>
             </div>
             <div class="ftr-lft-lemon">
               <img src="assets/images/ftr-lft-lemon.png">
