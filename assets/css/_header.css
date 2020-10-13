@@ -190,7 +190,9 @@
 	transform: rotate(45deg);
 }
 
-
+body.active-scroll-off {
+    overflow: hidden;
+}
 .mobile-hdr-menu{
 	padding: 0 100px;
 	padding-top: 90px;
