@@ -106,6 +106,7 @@
 	left: 50%;
 	transform: translateX(-50%);
 }
+
 .ftr-top-logo a,
 .ftr-rgt-logo a{
 	display: inline-block;
@@ -124,6 +125,9 @@
 }
 .ftr-rgt-logo a:hover span{
 	opacity: 1;
+}
+.ftr-rgt-logo a:hover .ftr-rgt-logo a img{
+	max-width: 70px;
 }
 .ftr-top-logo a img{
 	display: block;
