@@ -55,7 +55,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-bottom: 35px;
+	margin-bottom: 5px;
 }
 .races-running-sec-hdr p{
 	color: #004C9B;
@@ -94,6 +94,9 @@
 	background: #f4f4f4;
 	z-index: 1;
 }
+.racesRunningSlider .slick-list{
+	padding-top: 40px;
+}
 
 .races-running-sec-slider-cntlr{
 	padding: 0 100px;
@@ -107,6 +110,14 @@
 .racesRunningSlideItem{
 	height: 400px;
 	position: relative;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	position: relative;
+
+}
+.racesRunningSlideItem:hover{
+	margin-top: -10px;
 }
 
 .racesRunningSlideItem-fea-img{
@@ -191,7 +202,7 @@
 	max-width: 270px;
 	width: 100%;
 	position: relative;
-	height: 530px;
+	height: 510px;
 }
 .fasifi-layer-1{
 	position: relative;
@@ -214,7 +225,10 @@
 .free-alcohol-logo{
 	padding-bottom: 40px;
 }
-
+.freeAlcoholSlideItemRow{
+	display: flex;
+	align-items: center;
+}
 .freeAlcoholSlideItemDes p{
 	font-size: 16px;
 }
@@ -222,8 +236,12 @@
 .freeAlcoholSlideItemColbtn{
 	padding-top: 60px;
 }
-
-
+.freeAlcoholSlideItemDes{
+	padding-right: 90px;
+}
+.freeAlcoholSlider{
+	margin-bottom: 0!important;
+}
 
 /* page loader */
 .page-loader-cntlr{
@@ -279,6 +297,22 @@
 }
 
 
+/*home hover*/
+.fasifi-layer-2,
+.fasifi-layer-3{
+		transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.asifi-layer-cntlr:hover .fasifi-layer-2{
+	bottom: -75px;
+	right: -110px;
+}
+.asifi-layer-cntlr:hover .fasifi-layer-3{
+	bottom: 80px;
+	right: -5px;
+}
+
 
 
 
@@ -299,7 +333,8 @@
 		font-size: 45px;
 		margin-bottom: 25px;
 	}
-	.races-running-sec-slider-cntlr {
+	.races-running-sec-slider-cntlr,
+	.free-alcohol-sec-con {
 	    padding: 0 30px;
 	}
 	.racesRunningSlider .slick-prev, .free-alcohol-sec-con .slick-prev {
@@ -331,6 +366,18 @@
 		font-size: 42px;
 		margin-bottom: 20px;
 	}
+	.freeAlcoholSlideItemDes {
+	    padding-right: 30px;
+	}
+	.asifi-layer-cntlr{
+		margin-left: 0;
+	}
+	.free-alcohol-logo{
+		padding-bottom: 25px;
+	}
+	.free-alcohol-logo img{
+		max-width: 200px;
+	}
 }
 
 @media(max-width: 767px){
@@ -351,6 +398,27 @@
 	.rrsh-title br,
 	.races-running-sec-hdr p br{
 		display: none;
+	}
+	.freeAlcoholSlideItemRow{
+		display: block;
+	}
+	.freeAlcoholSlideItemCol{
+		float: none;
+		width: 100%;
+	}
+	.asifi-layer-cntlr{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.freeAlcoholSlideItemColbtn {
+	    padding-top: 40px;
+	}
+	.freeAlcoholSlideItemDes{
+		padding-right: 0;
+		padding-top: 30px;
+	}
+	.free-alcohol-sec {
+	    padding-bottom: 80px;
 	}
 }
 
@@ -388,12 +456,36 @@
 		bottom: 0;
 		width: 100%;
 		padding-bottom: 20px;
+		padding-right: 60px;
+	}
+	.rrsid-arrow-icon{
+		right: -50px;
+	}
+	.free-alcohol-sec-con {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.free-alcohol-sec.plr-20{
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
+	.fasifi-layer-1{
+		left: -10px;
+	}
+	.fasifi-layer-2{
+		right: -97px;
+	}
+	.free-alcohol-sec {
+	    padding-bottom: 70px;
+	}
+	.freeAlcoholSlideItemColbtn {
+	    padding-top: 25px;
 	}
 }
 
 @media(max-width: 479px){
 	.rrsh-title {
-	    font-size: 37px;
+	    font-size: 35px;
 
 	}
 	.running-free-documentary-sec-fea-img {
