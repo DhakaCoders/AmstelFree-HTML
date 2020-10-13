@@ -262,10 +262,16 @@
 	font-weight: 600;
 	display: inline-block;
 }
-.pagination-cntlr > ul > li > a.rt-icon{
+.pagination-cntlr > ul > li > a.prev{
 	position: relative;
 }
-.pagination-cntlr > ul > li > a.rt-icon:after{
+.pagination-cntlr > ul > li > a.prev:after{
+	position: absolute;
+}
+.pagination-cntlr > ul > li > a.next{
+	position: relative;
+}
+.pagination-cntlr > ul > li > a.next:after{
 	position: absolute;
 }
 .pagination-cntlr > ul > li > a.current,

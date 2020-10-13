@@ -43,7 +43,7 @@
 	left: 0;
 	height: 51px;
 	width: 1px;
-	background: #FFFFFF;
+	background: #2c70b7;
 }
 .humbergar-icon{
 	position: relative;
@@ -144,6 +144,9 @@
     -ms-transition: all 0.5s ease-out;
     -webkit-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
+    overflow-y: scroll;
+	height: 100%;
+	width: 100%;
 }
 .mobile-hdr.opacity-1{
 	right: 0;
@@ -164,6 +167,7 @@
 	align-items: center;
 	padding-right: 22px;
 	min-height: 123px;
+	z-index: 2;
 }
 .close-btn-cntlr{
 	display: flex;
@@ -190,10 +194,31 @@
 	transform: rotate(45deg);
 }
 
-
+body.active-scroll-off {
+    overflow: hidden;
+}
+.bdoverlay {
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    -ms-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    z-index: -1;
+}
+.bdoverlay.active {
+    z-index: 9999;
+    opacity: 1;
+}
 .mobile-hdr-menu{
 	padding: 0 100px;
 	padding-top: 90px;
+	position: relative;
+	z-index: 2;
 }
 .mbl-nav{
 	text-align: center;
@@ -242,6 +267,8 @@
 	padding: 0 100px;
 	padding-top: 180px;
 	padding-bottom: 60px;
+	position: relative;
+	z-index: 2;
 }
 .mobile-hdr-ftr-menu > ul{
 	display: flex;
