@@ -236,6 +236,11 @@ if( $('.freeAlcoholSlider').length ){
      
     });
 }
+$('.loader-logo-1').fadeIn(100); // will first fade out the loading animation 
+$('.loader-logo-2').fadeIn(200); // will first fade out the loading animation 
+$('.loader-logo-3').fadeIn(300); // will first fade out the loading animation 
+$('#preloader').delay(2050).fadeOut('slow');
+$('body').delay(350).css({'overflow':'visible'});
 
 /*----- end of Rannojit -----*/
 
