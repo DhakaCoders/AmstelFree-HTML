@@ -277,3 +277,64 @@
 .loader-logo-2{
 	padding-bottom: 13px;
 }
+
+
+
+
+
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	.rfd-sec-hdr-title{
+		font-size: 45px;
+		margin-bottom: 25px;
+	}
+
+}
+
+@media(max-width: 991px){
+	.rfd-sec-hdr-title {
+		font-size: 42px;
+		margin-bottom: 20px;
+	}
+}
+
+@media(max-width: 767px){
+	.rfd-sec-hdr-title {
+	    font-size: 35px;
+	}
+}
+
+@media(max-width: 575px){
+	.rfd-sec-hdr p {
+	    font-size: 15px;
+	}
+	.running-free-documentary-sec-fea-img {
+	    height: 400px;
+	}
+	
+	.rfd-sec-hdr-title {
+	    font-size: 30px;
+	    line-height: 1;
+	    margin-bottom: 15px;
+	}
+}
+
+@media(max-width: 479px){
+
+
+}
+
+@media(max-width: 359px){
+
+}
