@@ -41,6 +41,10 @@
 .contact-form-lft-sidebar-phone a{
 	color: #000;
 }
+.contact-form-lft-sidebar-adr a:hover,
+.contact-form-lft-sidebar-phone a:hover{
+	color: #C4000B;
+}
 
 
 .contact-rgt-form-field{
