@@ -107,6 +107,18 @@ afrp-image-text-gird-sec-wrp
     height: 66px;
     font-size: 20px;
     line-height: 1;
+    z-index: 10;
+    transition: all 0.5s; 
+    -ms-transition: all 0.5s; 
+    -webkit-transition: all 0.5s; 
+    cursor: pointer;
+}
+.ms-video-play-cntlr:hover{
+    width: 75px;
+    height: 75px;
+    transition: all 0.5s; 
+    -ms-transition: all 0.5s; 
+    -webkit-transition: all 0.5s; 
 }
 .fl-account-page-entry-hdr{
     max-width: 950px;
@@ -140,7 +152,7 @@ afrp-image-text-gird-sec-wrp
     margin-bottom: -2px;
 }
 .fl-account-page-entry-hdr a:hover{
-	color: #C19E61;
+	color: #C4000B;
 	transform: all 0.5s;
     -ms-transform: all 0.5s;
     -webkit-transform: all 0.5s;
