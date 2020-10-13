@@ -107,6 +107,9 @@
 	h6{
 		font-size: 25px;
 	}
+	body,p{
+		font-size: 16px;
+	}
 }
 
 @media(max-width: 575px){
@@ -135,7 +138,11 @@
 		font-size: 20px;
 	}
 	body,p{
-		font-size: 16px;
+		font-size: 15px;
+	}
+	.af-default-btn {
+	    padding: 17px 20px;
+	    min-width: 230px;
 	}
 
 }
