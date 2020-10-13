@@ -11,7 +11,7 @@
 }
 .pro-page-bnr-lft-col,
 .pro-page-bnr-rgt-col{
-	padding-top: 140px;
+	padding-top: 95px;
 }
 .ppbs-top-lft-mask{
 	position: absolute;
@@ -32,6 +32,17 @@
 	-ms-transform: translateX(-50%);
 	-webkit-transform: translateX(-50%);
 	bottom: -40px;
+}
+.ml-bottle-fea-img{
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.ml-bottle-fea-img:hover{
+	transform: scale(1.02);
+	-ms-transform: scale(1.02);
+	-webkit-transform: scale(1.02);
+	-o-transform: scale(1.02);
 }
 .pro-page-bnr-rgt-col{
 	width: 39%;

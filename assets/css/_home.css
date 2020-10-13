@@ -261,6 +261,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 
@@ -313,6 +314,11 @@
 	right: -5px;
 }
 
+.loader-logo-1,
+.loader-logo-2,
+.loader-logo-3{
+	display: none;
+}
 
 
 
@@ -359,6 +365,13 @@
 	.racesRunningSlideItem {
 	    height: 385px;
 	}
+	.loader-lft-mask,
+	.loader-rgt-mask{
+		max-width: 250px;
+	}
+	.loader-lft-frts{
+		max-width: 300px;
+	}
 }
 
 @media(max-width: 991px){
@@ -377,6 +390,26 @@
 	}
 	.free-alcohol-logo img{
 		max-width: 200px;
+	}
+	.loader-lft-mask,
+	.loader-rgt-mask{
+		max-width: 200px;
+	}
+	.loader-lft-frts{
+		max-width: 250px;
+	}
+	.loader-logo-1{
+		max-width: 100px;
+	}
+	.loader-logo-2{
+		max-width: 120px;
+	}
+	.loader-logo-3{
+		max-width: 125px;
+	}
+	.loader-logos > div{
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
@@ -419,6 +452,22 @@
 	}
 	.free-alcohol-sec {
 	    padding-bottom: 80px;
+	}
+	.loader-lft-mask,
+	.loader-rgt-mask{
+		max-width: 150px;
+	}
+	.loader-lft-frts{
+		max-width: 200px;
+	}
+	.loader-logo-1{
+		max-width: 80px;
+	}
+	.loader-logo-2{
+		max-width: 100px;
+	}
+	.loader-logo-3{
+		max-width: 105px;
 	}
 }
 
@@ -481,6 +530,22 @@
 	.freeAlcoholSlideItemColbtn {
 	    padding-top: 25px;
 	}
+	.loader-lft-mask,
+	.loader-rgt-mask{
+		max-width: 100px;
+	}
+	.loader-lft-frts{
+		max-width: 130px;
+	}
+	.loader-logo-1{
+		max-width: 70px;
+	}
+	.loader-logo-2{
+		max-width: 90px;
+	}
+	.loader-logo-3{
+		max-width: 95px;
+	}
 }
 
 @media(max-width: 479px){
@@ -500,3 +565,5 @@
 @media(max-width: 359px){
 
 }
+
+

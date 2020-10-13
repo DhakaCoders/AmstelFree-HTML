@@ -40,7 +40,7 @@
 	font-weight: 700;
 }
 .afrp-event-page-module a:hover{
-	background: #004C9B;
+	background: #C4000B;
 }
 .afrp-event-page-module span{
 	display: inline-block;
@@ -153,6 +153,13 @@
 	background:#004C9B;
 }
 
+.afrp-grid-loadmore-btn a:hover{
+	color: #C4000B;
+}
+.afrp-grid-loadmore-btn a:hover:after{
+	background: #C4000B;
+}
+
 /*
 -----------------------------
  relevant-evnt-slider-sec-wrp
@@ -225,14 +232,14 @@
     right: -90px!important;
 }
 .relevant-evnt-slider .slick-prev:hover{
-	background-color: #004c9a !important;
+	background-color: #C4000B !important;
     background-image:url(../images/prev-arrow-hover.png) !important;
     transition: all 0.5s;
     -ms-transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
 .relevant-evnt-slider .slick-next:hover{
-	background-color: #004c9a !important;
+	background-color: #C4000B !important;
     background-image:url(../images/next-arrow-hover.png) !important;
     transition: all 0.5s;
     transition: all 0.5s;
@@ -266,7 +273,7 @@
 }
 
 .relevant-evnt-slide-item-dsc-title:hover a{
-	color: #0a6ace;
+	color: #C4000B;
 }
 
 .relevant-evnt-slider-sec-wrp .relevant-evnt-slide-item-img-cntlr span {
@@ -445,7 +452,7 @@
 }
 .rf-team-member-tp-item-title:hover a,
 .rf-team-member-grid-item-title:hover a{
-	color: #3b25c2;
+	color: #C4000B;
 }
 .rf-team-member-sec-wrp .relevant-evnt-slider-cntlr{
 	padding-top: 100px;
@@ -470,7 +477,7 @@
 .rf-team-member-sec-wrp .relevant-evnt-slider .slick-next {
     right: -75px!important;
 }
-.relevant-evnt-slide-item-img-cntlr .hu-dtls-video-play-cntlr{
+.hu-dtls-video-play-cntlr{
     position: absolute;
     left: 50%;
     top: 50%;
@@ -480,8 +487,12 @@
     color: #fff;
     width: 54px;
     height: 54px;
+    z-index: 10;
     font-size: 20px;
     line-height: 1;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
 }
 .rf-team-member-sec-wrp .relevant-evnt-slide-item-img:after{
 	content: "";
