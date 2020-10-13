@@ -12,6 +12,7 @@
 .running-items-top{
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 	padding: 30px 0 35px 0;
 }
 .rng-top-btns{
@@ -83,6 +84,7 @@
 	width: 33.33%;
 	display: flex;
 	align-items: center;
+	padding-left: 10px;
 }
 .rng-top-cheak-input-btn{
 	position: relative;
@@ -281,4 +283,32 @@
 }
 .pagination-cntlr > ul > li > a:hover{
 	color:#0a2e52; 
+}
+
+@media(max-width: 1499px){
+
+}
+@media(max-width: 1399px){
+
+}
+@media(max-width: 1299px){
+
+}
+@media(max-width: 1199px){
+
+}
+@media(max-width: 991px){
+
+}
+@media(max-width: 767){
+
+}
+@media(max-width: 639){
+
+}
+@media(max-width: 575){
+
+}
+@media(max-width: 479){
+
 }

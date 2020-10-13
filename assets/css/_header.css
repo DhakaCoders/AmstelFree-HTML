@@ -141,17 +141,21 @@
     width: 0;
     opacity: 0;
     z-index: 9999;
-    -ms-transition: all 0.5s ease-out;
-    -webkit-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
-    overflow-y: scroll;
-	height: 100%;
-	width: 100%;
+    
 }
 .mobile-hdr.opacity-1{
 	right: 0;
     width: 100%;
     opacity: 1;
+}
+.mobile-hdr-innr{
+	position: relative;
+	-ms-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    overflow-y: scroll;
+	height: 100%;
+	width: 100%;
 }
 .mobile-hdr:hover .page-bnr-top-lft-animt-icon{
 	left: -20px;
@@ -160,6 +164,12 @@
 .mobile-hdr:hover .page-bnr-btm-rt-animt-icon{
 	right: -20px;
 	bottom: -20px;
+}
+.mobile-hdr-top-cntlr{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
 }
 .mobile-hdr-top{
 	position: relative;
