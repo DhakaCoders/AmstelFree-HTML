@@ -481,22 +481,15 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    /*transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);*/
+    -webkit-transform: translate(-50%,-50%);
     color: #fff;
     width: 54px;
     height: 54px;
     z-index: 10;
     font-size: 20px;
     line-height: 1;
-    transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    transform: scale(1.1,1.1);
-}
-.hu-dtls-video-play-cntlr:hover{
-	transform: scale(1.2,1.2);
     transition: all 0.5s;
     -ms-transition: all 0.5s;
     -webkit-transition: all 0.5s;
