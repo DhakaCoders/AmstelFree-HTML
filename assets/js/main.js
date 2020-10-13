@@ -214,14 +214,33 @@ if( $('.freeAlcoholSlider').length ){
       dots: false,
       infinite: false,
       arrows: true,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 2000,
       speed: 300,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
      
     });
 }
+$('.loader-logo-1').fadeIn(100); // will first fade out the loading animation 
+$('.loader-logo-2').fadeIn(200); // will first fade out the loading animation 
+$('.loader-logo-3').fadeIn(300); // will first fade out the loading animation 
+$('#preloader').delay(2050).fadeOut('slow');
+$('body').delay(350).css({'overflow':'visible'});
 
 /*----- end of Rannojit -----*/
 

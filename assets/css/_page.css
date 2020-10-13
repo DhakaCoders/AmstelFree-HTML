@@ -57,6 +57,21 @@
 }
 
 
+.slick-prev:hover{
+	background-image: url(../images/prev-arrow-hover.png)!important;
+	background-size: 31px 12px!important;
+	background-position: center center!important;
+	background-repeat: no-repeat!important;
+	background-color: #004c9a!important;
+}
+.slick-next:hover{
+	background-image: url(../images/next-arrow-hover.png)!important;
+	background-size: 31px 12px!important;
+	background-position: center center!important;
+	background-repeat: no-repeat!important;
+	background-color: #004c9a!important;
+}
+
 
 .sitemap{
 	padding: 50px 0 70px;
