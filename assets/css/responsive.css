@@ -110,6 +110,11 @@
 	body,p{
 		font-size: 16px;
 	}
+	.races-running-sec.plr-20{
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
+
 }
 
 @media(max-width: 575px){
@@ -144,6 +149,7 @@
 	    padding: 17px 20px;
 	    min-width: 230px;
 	}
+	
 
 }
 
