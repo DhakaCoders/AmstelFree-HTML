@@ -191,7 +191,7 @@
 	max-width: 270px;
 	width: 100%;
 	position: relative;
-	height: 530px;
+	height: 510px;
 }
 .fasifi-layer-1{
 	position: relative;
@@ -214,7 +214,10 @@
 .free-alcohol-logo{
 	padding-bottom: 40px;
 }
-
+.freeAlcoholSlideItemRow{
+	display: flex;
+	align-items: center;
+}
 .freeAlcoholSlideItemDes p{
 	font-size: 16px;
 }
@@ -222,8 +225,12 @@
 .freeAlcoholSlideItemColbtn{
 	padding-top: 60px;
 }
-
-
+.freeAlcoholSlideItemDes{
+	padding-right: 90px;
+}
+.freeAlcoholSlider{
+	margin-bottom: 0!important;
+}
 
 /* page loader */
 .page-loader-cntlr{
@@ -299,7 +306,8 @@
 		font-size: 45px;
 		margin-bottom: 25px;
 	}
-	.races-running-sec-slider-cntlr {
+	.races-running-sec-slider-cntlr,
+	.free-alcohol-sec-con {
 	    padding: 0 30px;
 	}
 	.racesRunningSlider .slick-prev, .free-alcohol-sec-con .slick-prev {
@@ -331,6 +339,18 @@
 		font-size: 42px;
 		margin-bottom: 20px;
 	}
+	.freeAlcoholSlideItemDes {
+	    padding-right: 30px;
+	}
+	.asifi-layer-cntlr{
+		margin-left: 0;
+	}
+	.free-alcohol-logo{
+		padding-bottom: 25px;
+	}
+	.free-alcohol-logo img{
+		max-width: 200px;
+	}
 }
 
 @media(max-width: 767px){
@@ -351,6 +371,27 @@
 	.rrsh-title br,
 	.races-running-sec-hdr p br{
 		display: none;
+	}
+	.freeAlcoholSlideItemRow{
+		display: block;
+	}
+	.freeAlcoholSlideItemCol{
+		float: none;
+		width: 100%;
+	}
+	.asifi-layer-cntlr{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.freeAlcoholSlideItemColbtn {
+	    padding-top: 40px;
+	}
+	.freeAlcoholSlideItemDes{
+		padding-right: 0;
+		padding-top: 30px;
+	}
+	.free-alcohol-sec {
+	    padding-bottom: 80px;
 	}
 }
 
@@ -389,11 +430,31 @@
 		width: 100%;
 		padding-bottom: 20px;
 	}
+	.free-alcohol-sec-con {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.free-alcohol-sec.plr-20{
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
+	.fasifi-layer-1{
+		left: -10px;
+	}
+	.fasifi-layer-2{
+		right: -97px;
+	}
+	.free-alcohol-sec {
+	    padding-bottom: 70px;
+	}
+	.freeAlcoholSlideItemColbtn {
+	    padding-top: 25px;
+	}
 }
 
 @media(max-width: 479px){
 	.rrsh-title {
-	    font-size: 37px;
+	    font-size: 35px;
 
 	}
 	.running-free-documentary-sec-fea-img {

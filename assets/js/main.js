@@ -214,11 +214,25 @@ if( $('.freeAlcoholSlider').length ){
       dots: false,
       infinite: false,
       arrows: true,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 2000,
       speed: 300,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
      
     });
 }
