@@ -85,10 +85,7 @@
 	color: #C4000B;
 }
 
-.ftr-socials-media{
-	position: relative;
-	z-index: 3;
-}
+
 .ftr-socials-media ul li{
 	display: inline-block;
 	vertical-align: baseline;
@@ -264,6 +261,10 @@
 	}
 	.ftr-top-glry-item-title{
 		font-size: 31px;
+	}
+	.ftr-socials-media{
+		position: relative;
+		z-index: 3;
 	}
 }
 

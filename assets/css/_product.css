@@ -188,7 +188,7 @@
 	vertical-align: baseline;
 	margin-bottom: 35px;
 }
-.product-grd-item-des a:hover svg{
+.product-grd-item-des a:hover  svg{
 	fill: #C4000B;
 }
 .product-grd-item-des a i{
@@ -248,6 +248,9 @@
 	right: 0;
 	bottom: 0;
 	z-index: 11;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
 }
 
 .pro-info{
