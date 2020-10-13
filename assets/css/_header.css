@@ -167,6 +167,7 @@
 	align-items: center;
 	padding-right: 22px;
 	min-height: 123px;
+	z-index: 2;
 }
 .close-btn-cntlr{
 	display: flex;
@@ -216,6 +217,8 @@ body.active-scroll-off {
 .mobile-hdr-menu{
 	padding: 0 100px;
 	padding-top: 90px;
+	position: relative;
+	z-index: 2;
 }
 .mbl-nav{
 	text-align: center;
@@ -264,6 +267,8 @@ body.active-scroll-off {
 	padding: 0 100px;
 	padding-top: 180px;
 	padding-bottom: 60px;
+	position: relative;
+	z-index: 2;
 }
 .mobile-hdr-ftr-menu > ul{
 	display: flex;
