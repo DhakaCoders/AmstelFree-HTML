@@ -313,6 +313,21 @@
 	.rfd-sec-hdr-title {
 	    font-size: 35px;
 	}
+	.races-running-sec-hdr{
+		display: block;
+		text-align: center;
+	}
+	.rrsh-title {
+	    font-size: 45px;
+	    margin: 0;
+	    padding-right: 0;
+	    text-align: center;
+	    margin-bottom: 20px;
+	}
+	.rrsh-title br,
+	.races-running-sec-hdr p br{
+		display: none;
+	}
 }
 
 @media(max-width: 575px){
