@@ -280,7 +280,8 @@
 
 
 
-.afrp-event-page-sec-wrp{
+.afrp-event-page-sec-wrp,
+.afrp-image-text-gird-sec-wrp{
 	position: relative;
 	z-index: 1;
 }
