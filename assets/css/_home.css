@@ -55,7 +55,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-bottom: 35px;
+	margin-bottom: 5px;
 }
 .races-running-sec-hdr p{
 	color: #004C9B;
@@ -94,6 +94,9 @@
 	background: #f4f4f4;
 	z-index: 1;
 }
+.racesRunningSlider .slick-list{
+	padding-top: 40px;
+}
 
 .races-running-sec-slider-cntlr{
 	padding: 0 100px;
@@ -107,6 +110,14 @@
 .racesRunningSlideItem{
 	height: 400px;
 	position: relative;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	position: relative;
+
+}
+.racesRunningSlideItem:hover{
+	margin-top: -10px;
 }
 
 .racesRunningSlideItem-fea-img{
