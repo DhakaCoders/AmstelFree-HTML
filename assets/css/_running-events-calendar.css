@@ -151,3 +151,125 @@
 .running-lists-btn a{
 
 }
+
+
+
+@media(max-width: 1499px){
+
+}
+@media(max-width: 1399px){
+
+}
+@media(max-width: 1299px){
+
+}
+@media(max-width: 1199px){
+
+}
+@media(max-width: 991px){
+	.running-list-date{
+		width: 18.05%;
+	}
+}
+@media(max-width: 767px){
+	.running-list-name{
+		padding-left: 15px;
+		width: 24%;
+		padding: 0 10px;
+	}
+	.running-list-location{
+		text-align: center;
+		width: 28.81%;
+		padding: 0 10px;
+	}
+	.running-list-date {
+		width: 22.05%;
+		text-align: center;
+		padding: 0 10px;
+	}
+	.running-list-title-nm {
+		width: 21.77%;
+		padding: 0 10px;
+	}
+	.running-list-btn {
+		width: 13.99%;
+		padding: 0 10px;
+	}
+}
+@media(max-width: 639){
+
+}
+@media(max-width: 575px){
+	.running-list-item{
+		flex-wrap: wrap;
+		padding-top: 10px;
+		padding-left: 10px;
+	}
+	.running-list-name{
+		width: 50%;
+		padding: 0 10px;
+		margin-bottom: 10px;
+		justify-content: flex-start;
+	}
+	.running-list-location{
+		width: 50%;
+		padding: 0 10px;
+		margin-bottom: 10px;
+		justify-content: flex-start;
+	}
+	.running-list-date {
+		width: 50%;
+		padding: 0 10px;
+		margin-bottom: 10px;
+		justify-content: flex-start;
+	}
+	.running-list-title-nm {
+		width: 50%;
+		padding: 0 10px;
+		margin-bottom: 10px;
+		justify-content: flex-start;
+	}
+	.running-list-btn {
+		width: 50%;
+		padding: 0 10px;
+		margin-bottom: 10px;
+		height: auto;
+		justify-content: flex-start;
+	}
+	.running-list-btn:before{
+		content: none;
+	}
+}
+@media(max-width: 479px){
+	.running-list-name{
+		width: 100%;
+		padding: 0 10px;
+		margin-bottom: 10px;
+		justify-content: center;
+	}
+	.running-list-location{
+		width: 100%;
+		padding: 0 10px;
+		margin-bottom: 10px;
+		justify-content: center;
+	}
+	.running-list-date {
+		width: 100%;
+		padding: 0 10px;
+		margin-bottom: 10px;
+		justify-content: center;
+	}
+	.running-list-title-nm {
+		width: 100%;
+		padding: 0 10px;
+		margin-bottom: 10px;
+		justify-content: center;
+	}
+	.running-list-btn {
+		width: 100%;
+		padding: 0 10px;
+		margin-bottom: 10px;
+		height: auto;
+		justify-content: center;
+	}
+}

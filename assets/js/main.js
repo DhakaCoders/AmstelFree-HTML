@@ -262,7 +262,7 @@ $('body').delay(350).css({'overflow':'visible'});
 
 
 
-  if (windowWidth <= 1920) {
+  if (windowWidth <= 4000) {
     $('.humbergar-icon').on('click', function(e){
       $('.mobile-hdr').addClass('opacity-1');
       $('.bdoverlay').addClass('active');

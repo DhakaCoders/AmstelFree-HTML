@@ -100,13 +100,16 @@
 	right: 0;
 	opacity: 0;
 	background: #004C9B;
-	z-index: 9999;
+	z-index: 100;
 	display: flex;
 	align-items: center;
 	overflow: hidden;
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+}
+.fixed-hdr .page-bnr-top-lft-animt-icon{
+	z-index: -1;
 }
 .hasSticky header.header .fixed-hdr{
 	opacity: 1;
@@ -133,7 +136,9 @@
 	color: #fff;
 	height: 100vh;
 	position: relative;
-
+	-ms-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -150,10 +155,9 @@
 }
 .mobile-hdr-innr{
 	position: relative;
-	-ms-transition: all 0.5s ease-out;
-    -webkit-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
-    overflow-y: scroll;
+}
+.mbl-menu-cntrl{
+	overflow-y: scroll;
 	height: 100%;
 	width: 100%;
 }
@@ -226,7 +230,7 @@ body.active-scroll-off {
 }
 .mobile-hdr-menu{
 	padding: 0 100px;
-	padding-top: 90px;
+	padding-top: 213px;
 	position: relative;
 	z-index: 2;
 }
