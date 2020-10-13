@@ -456,6 +456,10 @@
 		bottom: 0;
 		width: 100%;
 		padding-bottom: 20px;
+		padding-right: 60px;
+	}
+	.rrsid-arrow-icon{
+		right: -50px;
 	}
 	.free-alcohol-sec-con {
 		padding-left: 0;
