@@ -194,6 +194,9 @@
 .mobile-hdr-menu{
 	padding: 0 100px;
 	padding-top: 90px;
+	overflow-y: scroll;
+	height: 100%;
+	width: 100%;
 }
 .mbl-nav{
 	text-align: center;
