@@ -6,6 +6,8 @@
 .afrp-event-page-sec-wrp{
 	padding-bottom: 75px;
 	margin-top: -140px;
+	z-index: 1;
+	position: relative;
 }
 .afrp-event-page-sec-wrp .afrp-event-page-module{
 	padding-left: 50px;
