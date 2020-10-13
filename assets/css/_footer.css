@@ -27,6 +27,9 @@
 	color: #004C9B;
 	font-size: 30px;
 }
+.ftr-top-glry-item-des-ctlr a:hover{
+	color: #C4000B;
+}
 
 .ftr-top-glry-item-title{
 	display: block;
@@ -76,6 +79,9 @@
 	text-transform: uppercase;
 	font-family: 'TheSansAmstel-Black';
 }
+.ftr-menu ul li a:hover{
+	color: #C4000B;
+}
 
 
 .ftr-socials-media ul li{
@@ -96,6 +102,10 @@
 	font-size: 22px;
 	color: #004C9B;
 }
+.ftr-socials-media ul li a:hover{
+	background: #C4000B;
+	color: #fff;
+}
 
 
 
@@ -105,6 +115,18 @@
 	top: -35px;
 	left: 50%;
 	transform: translateX(-50%);
+}
+
+.ftr-top-logo-1{
+	margin-left: auto;
+	margin-right: auto;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	position: relative;
+}
+.ftr-top-logo-1:hover{
+	top: -5px;
 }
 
 .ftr-top-logo a,
@@ -126,9 +148,11 @@
 .ftr-rgt-logo a:hover span{
 	opacity: 1;
 }
-.ftr-rgt-logo a:hover .ftr-rgt-logo a img{
-	max-width: 70px;
+.ftr-rgt-logo a img:hover{
+	transform: scale(1.1);
 }
+
+
 .ftr-top-logo a img{
 	display: block;
 	margin-bottom: 8px;

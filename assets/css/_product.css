@@ -188,6 +188,9 @@
 	vertical-align: baseline;
 	margin-bottom: 35px;
 }
+.product-grd-item-des a:hover svg{
+	fill: #C4000B;
+}
 .product-grd-item-des a i{
 	display: inline-block;
 	vertical-align: baseline;
@@ -229,7 +232,16 @@
 	background: #F4F4F4;
 	padding-top: 135px;
 	padding-bottom: 110px;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
 	position: relative;
+	overflow: hidden;
+}
+.product-information-sec-ctlr:hover .pro-info-left-img{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
 }
 .pro-info-left-img{
 	position: absolute;
