@@ -213,7 +213,7 @@
 	bottom: 0;
 	padding-left: 50px;
 	padding-bottom: 40px;
-	padding-right: 280px;
+	padding-right: 20px;
 }
 
 .product-grd-item-des a{
@@ -292,12 +292,13 @@
 	margin: 0 auto;
 	position: relative;
 	z-index: 12;
+	padding-left: 20px;
 }
 
 .pro-info-left{
 	float: left;
 	width: 50%;
-	padding-right: 50px;
+	padding-right: 40px;
 }
 .pro-info-rgt{
 	float: right;
@@ -433,6 +434,15 @@
 	.ppbs-btm-rgt-mask{
 		max-width: 300px;
 	}
+	.product-grd-item-des {
+	    padding-left: 40px;
+	}
+	.product-grd-item-des-title{
+		font-size: 48px;
+	}
+	.pro-info-left-img img{
+		width: 500px;
+	}
 
 }
 
@@ -453,6 +463,35 @@
 	.ppbs-top-lft-mask,
 	.ppbs-btm-rgt-mask{
 		max-width: 250px;
+	}
+	.product-grd-item-img{
+		height: 500px;
+	}
+	.product-grd-item-des {
+	    padding-left: 20px;
+	    padding-bottom: 20px;
+	}
+	.product-grd-item-des a {
+	    margin-bottom: 25px;
+	}
+	.product-grd-item-des-title {
+	    font-size: 44px;
+	    margin-bottom: 25px;
+	}
+	.product-information-sec-ctlr{
+		padding-top: 100px;
+		padding-bottom: 80px;
+	}
+	.pro-info-left {
+	    padding-right: 20px;
+	}
+	.pro-info-left-title, 
+	.pro-info-rgt-title {
+	    font-size: 18px;
+	    margin-bottom: 30px;
+	}
+	.pro-info-left-img img {
+	    width: 400px;
 	}
 }
 
@@ -500,6 +539,41 @@
 	.ppblc-des p{
 		padding-bottom: 20px;
 	}
+	.product-grd-sec-ctlr ul li {
+	    width: 100%;
+	    padding-bottom: 20px;
+	}
+	.product-grd-item-des a {
+	    margin-bottom: 20px;
+	}
+	.product-grd-item-des-title {
+	    font-size: 40px;
+	    margin-bottom: 20px;
+	}
+	.product-grd-item-des-title br{
+		display: none;
+	}
+	.product-grd-item-des p {
+	    font-size: 16px;
+	}
+	.product-information-sec-ctlr {
+	    padding-top: 80px;
+	    padding-bottom: 90px;
+	}
+	.pro-info-left {
+		width: 100%;
+	    padding-right: 0;
+	    padding-bottom: 30px;
+	}
+	.pro-info-rgt {
+	    width: 100%;
+	}
+	.pro-info{
+		padding-right: 20px;
+	}
+	.product-grd-item-img {
+	    height: 450px;
+	}
 }
 
 @media(max-width: 575px){
@@ -517,6 +591,9 @@
 	.product-page-bnr-grds{
 		padding-bottom: 85px;
 	}
+	.product-grd-item-des-title {
+	    font-size: 36px;
+	}
 }
 
 @media(max-width: 479px){
@@ -525,5 +602,7 @@
 }
 
 @media(max-width: 359px){
-
+	.pro-info-rgt ul li{
+		width: 100%;
+	}
 }
