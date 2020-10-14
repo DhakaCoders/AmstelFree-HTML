@@ -7,7 +7,9 @@
 	width: 20%;
 }
 
-
+.ftr-top-glry-item{
+	position: relative;
+}
 .ftr-top-glry-item-img{
 	height: 265px;
 }
@@ -127,7 +129,9 @@
 	-ms-transition: all 0.5s;
 	position: relative;
 }
-.ftr-top-logo-1:hover{
+
+
+.ftr-top-logo a:hover .ftr-top-logo-1{
 	top: -5px;
 }
 
@@ -265,6 +269,9 @@
 	.ftr-socials-media{
 		position: relative;
 		z-index: 3;
+	}
+	.ftr-rgt-logo{
+		z-index: 4;
 	}
 }
 
