@@ -221,6 +221,11 @@
 	border: 1px solid #fff;
 	cursor: pointer;
 }
+.mn-bnr-scrll-btn a:hover img{
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
 .banner-slider-item-inr{
 	min-height: 585px;
 	display: flex;

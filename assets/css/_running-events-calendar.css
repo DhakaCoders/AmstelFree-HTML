@@ -1,6 +1,26 @@
 
-.rng-items-list-sm-btn a{
-	width: 106px;
+.rng-items-list-sm-btn{
+	width: 120px;
+	height: 36px;
+	position: relative;
+}
+.rng-items-list-sm-btn input{
+	height: 100%;
+	width: 100%;
+	padding-left: 35px;
+	border-radius: 20px;
+	background: #004C9B;
+	color: #fff;
+}
+.rng-items-list-sm-btn i{
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	margin-top: -3px;
+	fill: #fff;
 }
 .rng-top-cheak-input-lg-btn,
 .rng-top-cheak-input-lg-btn{
@@ -167,11 +187,20 @@
 
 }
 @media(max-width: 991px){
+	.running-items-cnt-cntlr{
+		margin-top: -60px;
+	}
 	.running-list-date{
 		width: 18.05%;
 	}
 }
 @media(max-width: 767px){
+	.running-items-cnt-cntlr{
+		margin-top: -40px;
+	}
+	.running-lists-modiul-hding{
+		padding: 33px 0 14px 0;
+	}
 	.running-list-name{
 		padding-left: 15px;
 		width: 24%;
@@ -202,8 +231,12 @@
 @media(max-width: 575px){
 	.running-list-item{
 		flex-wrap: wrap;
-		padding-top: 10px;
+		padding-top: 20px;
 		padding-left: 10px;
+		padding-bottom: 10px;
+	}
+	.running-lists-modiul-hding{
+		padding: 26px 0 10px 0;
 	}
 	.running-list-name{
 		width: 50%;
@@ -241,6 +274,13 @@
 	}
 }
 @media(max-width: 479px){
+	.rng-top-cheak-input{
+		flex-wrap: wrap;
+	}
+	.rng-top-cheak-input-lg-btn,
+	.rng-top-cheak-input-lg-btn{
+		margin-bottom: 10px;
+	}
 	.running-list-name{
 		width: 100%;
 		padding: 0 10px;
