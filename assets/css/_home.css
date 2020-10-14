@@ -171,10 +171,8 @@
 .free-alcohol-sec-con .slick-next{
 	right: -100px!important;
 }
-.racesRunningSlider .racesRunningSlideItemCol .racesRunningSlideItemDes{
-	background: rgba(196,0,11,.86);
-}
-.racesRunningSlider .racesRunningSlideItemCol + .racesRunningSlideItemCol .racesRunningSlideItemDes{
+
+.racesRunningSlider .slick-active + .slick-active .racesRunningSlideItemDes{
 	background: rgba(186,146,76,.89);
 }
 
