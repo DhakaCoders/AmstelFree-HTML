@@ -635,6 +635,9 @@
 	.rf-team-member-wrp {
 	    padding-bottom: 40px;
 	}
+	.rf-team-member-sec-wrp{
+		margin-top: -45px;
+	}
 	.rf-team-member-sec-wrp .relevant-evnt-slider-cntlr {
 	    padding-top: 40px;
 	}
@@ -712,6 +715,9 @@
 	.rf-team-member-wrp {
 	    padding-bottom: 0;
 	}
+	.rf-team-member-sec-wrp{
+		margin-top: -35px;
+	}
 	.rf-team-member-sec-wrp .relevant-evnt-slider-cntlr {
 	    padding-top: 30px;
 	}
@@ -768,6 +774,9 @@
 	}
 	.rf-team-member-grid-item ul li {
 	    width: 50%;
+	}
+	.rf-team-member-sec-wrp{
+		margin-top: -30px;
 	}
 	.rf-team-member-sec-wrp .afrp-image-text-gird-block {
 	    padding: 45px 40px 50px;

@@ -332,6 +332,12 @@ body.active-scroll-off {
 	}
 }
 @media(max-width: 991px){
+	.main-hdr{
+		min-height: 100px;
+	}
+	.logo a{
+		max-width: 160px;
+	}
 	.mobile-hdr-top{
 		min-height: 100px;
 	}
@@ -378,9 +384,26 @@ body.active-scroll-off {
 	}
 }
 @media(max-width: 639px){
-
+	.main-hdr{
+		min-height: 80px;
+		padding-left: 25px;
+	}
+	.main-hdr .logo{
+		position: initial;
+		top: initial;
+		-webkit-transform: initial;
+		-ms-transform: initial;
+		transform: initial;
+		left: initial;
+	}
+	.logo a{
+		max-width: 120px;
+	}
 }
 @media(max-width: 575px){
+	.humbergar-cntlr:after{
+		content: none;
+	}
 	.mobile-hdr-menu{
 		padding-top: 140px;
 	}

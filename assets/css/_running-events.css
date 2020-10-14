@@ -279,7 +279,7 @@
 }
 
 .pagination-cntlr{
-	padding: 50px 30px 27px 30px;
+	padding: 50px 10px 27px 10px;
 }
 .pagination-cntlr > ul{
 	display: flex;
@@ -345,6 +345,19 @@
 		width: initial;
 		margin-left: auto;
 	}
+	.running-item-img-cntlr{
+		margin-bottom: 15px;
+		height: 235px;
+	}
+	.running-item-desc-title{
+		font-size: 22px;
+	}
+	.running-items{
+		padding-bottom: 60px;
+	}
+	.pagination-cntlr{
+		padding: 42px 10px 27px 10px;
+	}
 }
 @media(max-width: 991px){
 	.running-items-cnt-cntlr{
@@ -358,6 +371,31 @@
 	}
 	.running-list-date{
 		width: 18.05%;
+	}
+	.running-items-cntlr > ul{
+		margin: 0 -10px;
+	}
+	.running-items-cntlr > ul > li{
+		padding: 0 10px;
+		margin-bottom: 20px;
+	}
+
+	.running-item-img-cntlr{
+		margin-bottom: 15px;
+		height: 185px;
+	}
+	.running-item-desc {
+		padding: 0 15px 15px 15px;
+	}
+	.running-item-desc-title{
+		font-size: 19px;
+		margin-bottom: 0;
+	}
+	.running-items{
+		padding-bottom: 40px;
+	}
+	.pagination-cntlr{
+		padding: 30px 10px 27px 10px;
 	}
 }
 @media(max-width: 840px){
@@ -378,16 +416,84 @@
 		margin-left: initial;
 		justify-content: flex-start;
 	}
+	
 }
 @media(max-width: 767px){
+	.running-items-cntlr > ul{
+		padding: 0 30px;
+	}
+	.running-items-cntlr > ul > li{
 
+		width: 50%;
+	}
+	.running-items-cntlr > ul > li:nth-child(3n+1){
+		clear: initial;
+	}
+	.running-items-cntlr > ul > li:nth-child(2n+1){
+		clear: left;
+	}
+	.running-item-img-cntlr{
+		height: 220px;
+		margin-bottom: 20px;
+	}
+	.running-item-desc {
+		padding: 0 20px 20px 20px;
+	}
+	.running-item-desc-title{
+		font-size: 22px;
+		margin-bottom: 5px;
+	}
+	.running-items{
+		padding-bottom: 20px;
+	}
+	.pagination-cntlr{
+		padding: 15px 10px 30px 10px;
+	}
 }
 @media(max-width: 639px){
-
+	.running-items-cntlr > ul{
+		padding: 0;
+	}
+	.running-item-img-cntlr{
+		height: 200px;
+		margin-bottom: 18px;
+	}
+	.running-item-desc {
+		padding: 0 15px 15px 15px;
+	}
+	.running-item-desc-title{
+		font-size: 19px;
+		margin-bottom: 0;
+	}
 }
 @media(max-width: 575px){
-
+	.running-items-cntlr > ul{
+		margin: 0;
+	}
+	.running-items-cntlr > ul > li{
+		padding: 0;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.running-items-cntlr > ul > li:nth-child(2n+1){
+		clear: initial;
+	}
+	.running-item-img-cntlr{
+		margin-bottom: 25px;
+	}
+	.running-item{
+		max-width: 300px;
+		margin: auto;
+	}
+	.running-items{
+		padding-bottom: 0;
+	}
+	.pagination-cntlr{
+		padding: 0 10px 30px 10px;
+	}
 }
 @media(max-width: 479px){
-
+	.rng-top-cheak-input-btn{
+		margin-bottom: 10px;
+	}
 }
