@@ -181,7 +181,7 @@
 	position: relative;
 	display: flex;
 	align-items: center;
-	padding-right: 22px;
+	padding-right: 42px;
 	min-height: 123px;
 	z-index: 2;
 }
