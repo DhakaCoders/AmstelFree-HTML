@@ -45,11 +45,12 @@
 }
 .rng-items-list-btn{
 	margin-right: 10px;
+	position: relative;
 }
-.rng-items-list-btn a{
+.rng-items-list-btn label{
 	display: flex;
 	align-items: center;
-	padding: 0 0 0 36px;
+	padding: 0 0 0 0;
 	position: relative;
 	height: 36px;
 	width: 169px;
@@ -58,7 +59,28 @@
 	font-size: 12px;
 	color: #3E3935;
 	text-transform: uppercase;
+	z-index: 2;
 }
+
+.datepicker-field{
+	width: 100%;
+	height: 100%;
+	background: transparent!important;
+	border: none!important;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	border-radius: 25px;
+	margin: 0;
+	padding: 0;
+}
+#ui-datepicker-div{
+	z-index: 100!important;
+}
+
 .rng-items-list-btn a.active,
 .rng-items-grd-btn span.active{
 	background: #004C9B;

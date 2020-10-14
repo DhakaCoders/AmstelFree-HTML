@@ -242,6 +242,11 @@ $('.loader-logo-3').fadeIn(300); // will first fade out the loading animation
 $('#preloader').delay(2050).fadeOut('slow');
 $('body').delay(350).css({'overflow':'visible'});
 
+
+if( $('.datepicker').length ){
+  $('.datepicker').datepicker();
+}
+
 /*----- end of Rannojit -----*/
 
 
