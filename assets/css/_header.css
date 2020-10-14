@@ -128,6 +128,24 @@
 .fixed-hdr .humbergar-cntlr:after{
 	content: none!important;
 }
+/*language*/
+.fixed-hdr-rt{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-left: auto;
+}
+.fixed-hdr-rt .fixed-hdr-rt-lan{
+	padding-right: 22px;
+}
+.fixed-hdr-rt .fixed-hdr-rt-lan span{
+	display: inline-block;
+	color: #fff;
+}
+.fixed-hdr-rt .humbergar-cntlr:after{
+	content: ""!important;
+	height: 40px;
+}
 
 
 /*mobile header*/
