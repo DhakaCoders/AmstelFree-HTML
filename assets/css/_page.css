@@ -222,9 +222,9 @@
 	cursor: pointer;
 }
 .mn-bnr-scrll-btn a:hover img{
-	-ms-transform: scale(1.2);
-	-webkit-transform: scale(1.2);
-	transform: scale(1.2);
+	-ms-transform: scale(1.12);
+	-webkit-transform: scale(1.12);
+	transform: scale(1.12);
 }
 .banner-slider-item-inr{
 	min-height: 585px;
