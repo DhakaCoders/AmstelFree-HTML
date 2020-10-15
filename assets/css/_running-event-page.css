@@ -746,6 +746,9 @@
 	.rf-team-member-btm-grids {
 	    padding-top: 15px;
 	}
+	.rf-team-member-tp-item-title{
+		font-size: 28px;
+	}
 }
 
 @media(max-width: 575px){
@@ -796,7 +799,20 @@
 	    padding: 18px 20px;
 	    min-width: 230px;
 	}
-
+	.relevant-evnt-slider-wrp,
+	.relevant-evnt-slide-item{
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
+	.afrp-event-page-dsc span{
+		font-size: 18px;
+	}
+	.afrp-event-page-dsc p{
+		font-size: 16px;
+	}
+	.rf-team-member-tp-item-title{
+		font-size: 26px;
+	}
 }
 
 @media(max-width: 479px){
@@ -807,7 +823,7 @@
 	    font-size: 26px;
 	}
 	.relevant-evnt-title {
-	    font-size: 21px;
+	    font-size: 26px;
 	}
 	.relevant-evnt-slider-wrp {
 	    padding: 0 10px;

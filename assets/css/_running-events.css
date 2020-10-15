@@ -277,9 +277,7 @@
 	display: inline-block;
 	color: #004C9B;
 }
-.running-item-desc-title a:hover{
-	color: #2b78c7;
-}
+
 
 .pagination-cntlr{
 	padding: 50px 10px 27px 10px;
@@ -418,6 +416,12 @@
 		width: 100%;
 		margin-left: initial;
 		justify-content: flex-start;
+	}
+	.rng-top-cheak-input,
+	.rng-top-select-cntlr,
+	.rng-top-btns{
+		display: flex;
+		justify-content: center;
 	}
 	
 }

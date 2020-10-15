@@ -160,10 +160,10 @@
     position: fixed;
     top: 0;
     bottom: 0;
-    right: -100%;
-    width: 0;
+    right: 0;
+   bottom: 0;
     opacity: 0;
-    z-index: 9999;
+    z-index: -9999;
     overflow: hidden;
 }
 .mobile-hdr .page-bnr-top-lft-animt-icon{
@@ -173,6 +173,7 @@
 	right: 0;
     width: 100%;
     opacity: 1;
+    z-index: 9999;
 }
 .mobile-hdr-innr{
 	position: relative;
@@ -254,7 +255,7 @@ body.active-scroll-off {
 }
 .mobile-hdr-menu{
 	padding: 0 20px;
-	padding-top: 213px;
+	padding-top: 185px;
 	position: relative;
 	z-index: 2;
 }
@@ -303,7 +304,7 @@ body.active-scroll-off {
 }
 .mobile-hdr-ftr-menu{
 	padding: 0 20px;
-	padding-top: 180px;
+	padding-top: 100px;
 	padding-bottom: 60px;
 	position: relative;
 	z-index: 2;

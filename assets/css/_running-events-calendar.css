@@ -295,6 +295,11 @@
 	.running-list-btn:before{
 		content: none;
 	}
+	.relevant-evnt-slider-wrp,
+	.relevant-evnt-slide-item{
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
 @media(max-width: 479px){
 	.rng-top-cheak-input{
