@@ -14,6 +14,7 @@
   <link rel="stylesheet" type="text/css" href="assets/fancybox3/dist/jquery.fancybox.min.css">
   <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick-theme.css">
   <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/jQuery-UI.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/fonts/custom-fonts.css">
 
@@ -26,11 +27,6 @@
   <![endif]-->  
 
   <svg style="display: none;">
-
-
-    <!-- End of Milon -->
-
-
     <symbol id="rng-items-list-btn-icon" data-name="Group 409" xmlns="http://www.w3.org/2000/svg" width="15.711" height="15.711" viewBox="0 0 15.711 15.711">
       <g id="Group_4" data-name="Group 4">
         <g id="Group_3" data-name="Group 3">
@@ -48,9 +44,6 @@
         </g>
       </g>
     </symbol>
-    <!-- End of Noyon -->
-
-      
     <symbol id="next-white-icon-svg" xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
       <g id="Group_27" data-name="Group 27" transform="translate(-1694.726 -604)">
         <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(1694.726 604)" fill="none" stroke="#fff" stroke-width="2">
@@ -87,17 +80,11 @@
       </g>
       <path id="Shape" d="M-35.111,10.707H-6.8L-16.169,1.4-14.759,0-2.668,12.008l-1.411,1.4-.1-.1L-14.557,23.716l-1.411-1.4L-6.3,12.709H-35.111Z" transform="translate(55.388 23.716)"/>
     </symbol>
-
-
-    <!-- End of Rannojit -->
-
-
-    <!-- End of Shariful -->
-
   </svg>
 
 </head>
 <body>
+  <div class="bdoverlay"></div>
 <header class="header">
   <div class="main-hdr">
     <div class="logo">
@@ -122,16 +109,11 @@
         <img src="assets/images/logo.png" alt="">
       </a>
     </div>
-    <div class="fixed-hdr-rt">
-      <div class="fixed-hdr-rt-lan">
-        <span>GR</span>
-      </div>
-      <div class="humbergar-cntlr">
-        <div class="humbergar-icon">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+    <div class="humbergar-cntlr">
+      <div class="humbergar-icon">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </div>
   </div>
@@ -142,36 +124,43 @@
     <span class="page-bnr-btm-rt-animt-icon">
       <img src="assets/images/hdr-animate-icon-btm-right.png" alt="">
     </span>
-    <div class="mobile-hdr-top">
-      <div class="logo">
-        <a href="#">
-          <img src="assets/images/logo.png" alt="">
-        </a>
-      </div>
-      <div class="close-btn-cntlr">
-        <div class="close-btn-icon">
-          <span></span>
-          <span></span>
+    <div class="mobile-hdr-innr">
+      <div class="mobile-hdr-top-cntlr">
+        <div class="mobile-hdr-top">
+          <div class="logo">
+            <a href="#">
+              <img src="assets/images/logo.png" alt="">
+            </a>
+          </div>
+          <div class="close-btn-cntlr">
+            <div class="close-btn-icon">
+              <span></span>
+              <span></span>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="mobile-hdr-menu">
-      <nav class="mbl-nav">
-        <ul class="reset-list">
-          <li><a href="#">ΑΡΧΙΚΗ</a></li>
-          <li><a href="#">Running free</a></li>
-          <li><a href="#">ΑΓΩΝΕΣ RUNNING</a></li>
-          <li><a href="#">ΑΜΣΤΕΛ FREE <span>&</span> <strong>FREE LEMON</strong></a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="mobile-hdr-ftr-menu">
-      <ul class="reset-list">
-        <li><a href="#">COOKIES</a></li>
-        <li class="active"><a href="#">ΠΟΛΙΤΙΚΗ ΠΡΟΣΤΑΣΙΑΣ</a></li>
-        <li><a href="#">ΟΡΟΙ ΧΡΗΣΗΣ</a></li>
-        <li><a href="#">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>                     
-      </ul>
+      <div class="mbl-menu-cntrl">
+        <div class="mobile-hdr-menu">
+          <nav class="mbl-nav">
+            <ul class="reset-list">
+              <li><a href="#">ΑΡΧΙΚΗ</a></li>
+              <li><a href="#">Running free</a></li>
+              <li><a href="#">ΑΓΩΝΕΣ RUNNING</a></li>
+              <li><a href="#">ΑΜΣΤΕΛ FREE <span>&</span> <strong>FREE LEMON</strong></a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="mobile-hdr-ftr-menu">
+          <ul class="reset-list">
+            <li><a href="#">COOKIES</a></li>
+            <li class="active"><a href="#">ΠΟΛΙΤΙΚΗ ΠΡΟΣΤΑΣΙΑΣ</a></li>
+            <li><a href="#">ΟΡΟΙ ΧΡΗΣΗΣ</a></li>
+            <li><a href="#">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>                     
+          </ul>
+        </div>
+      </div>
+      
     </div>
   </div>
 </header>
@@ -634,20 +623,6 @@
   </div>    
 </section>
 
-
-<section class="main-content">
-  <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-
-        </div>
-        <div class="col-md-6">
-
-        </div>
-      </div>
-  </div>    
-</section>
-
 <section class="product-grd-sec">
   <div class="container-fluid">
     <div class="row">
@@ -657,7 +632,7 @@
             <li>
               <div class="product-grd-item-ctlr">
                 <div class="product-grd-item mHc">
-                  <a href="#" class="overlay-link" data-toggle="modal" data-target="#product-modal"></a>
+                  <a href="#" class="overlay-link" data-toggle="modal" data-target="#product-modal-1"></a>
                   <div class="product-grd-item-des-img-ctlr">
                     <div class="product-grd-item-img inline-bg" style="background: url('assets/images/product-grd-item-img-01.jpg');"></div>
                     <div class="product-grd-item-des">
@@ -679,7 +654,7 @@
             <li>
               <div class="product-grd-item-ctlr">
                 <div class="product-grd-item mHc">
-                  <a href="#" class="overlay-link"></a>
+                  <a href="#" class="overlay-link" data-toggle="modal" data-target="#product-modal-2"></a>
                   <div class="product-grd-item-des-img-ctlr">
                     <div class="product-grd-item-img inline-bg" style="background: url('assets/images/product-grd-item-img-02.jpg');"></div>
                     <div class="product-grd-item-des">
@@ -711,7 +686,7 @@
 
 
 <!-- modal -->
-<div class="modal fade" id="product-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="padding-right:0;">
+<div class="modal fade asf-modal-cnltr" id="product-modal-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="padding-right:0;">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-body">
@@ -723,6 +698,35 @@
             </button>
             <div class="product-modal-img-ctlr">
               <div class="product-modal-img inline-bg" style="background:url(assets/images/product-grd-item-img-01.jpg);">
+              </div>
+              <div class="product-modal-img-des">
+                <h2 class="product-modal-img-title">ΓΕΥΣΤΙΚΟΙ ΣΥΝΔΥΑΣΜΟΙ</h2>
+              </div>
+            </div>
+            <div class="product-modal-des">
+              <p>Η δροσιστική και ισορροπημένη γεύση της ΑΜΣΤΕΛ Free ταιριάζει με λαχανικά, με πράσινες σαλάτες ή και με σαλάτες που περιέχουν κάποιο ελαφρύ κρεατικό.</p>
+              <strong>ΣΑΛΑΤΑ ΜΕ ΨΗΤΟ ΚΟΤΟΠΟΥΛΟ & ΑΜΣΤΕΛ FREE</strong>
+              <p>Η γεμάτη γεύση της ΑΜΣΤΕΛ Free ταιριάζει ιδανικά με τον όγκο που χαρίζει στη σαλάτα μας το ψητό κοτόπουλο, ενώ η δροσιστική της αίσθηση συνδυάζεται ιδανικά με τα πράσινα στοιχεία του πιάτου, δίνοντας ένα αρμονικό, ζουμερό αποτέλεσμα.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade asf-modal-cnltr" id="product-modal-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="padding-right:0;">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="product-modal-content-ctlr">
+
+          <div class="product-modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <img src="assets/images/modal-close-btn.png">
+            </button>
+            <div class="product-modal-img-ctlr">
+              <div class="product-modal-img inline-bg" style="background:url(assets/images/product-grd-item-img-02.jpg);">
               </div>
               <div class="product-modal-img-des">
                 <h2 class="product-modal-img-title">ΓΕΥΣΤΙΚΟΙ ΣΥΝΔΥΑΣΜΟΙ</h2>

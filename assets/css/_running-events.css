@@ -47,6 +47,9 @@
 	margin-right: 10px;
 	position: relative;
 }
+.rng-items-list-btn-01.rng-items-list-btn input{
+	border-radius: 100%;
+}
 .rng-items-list-btn label{
 	display: flex;
 	align-items: center;

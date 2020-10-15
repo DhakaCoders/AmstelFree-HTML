@@ -37,7 +37,15 @@ a,input,img,textarea,button,svg,i,.pro-page-bnr-con-changer-btn{
 	-webkit-transform: scale(1.03);
 	-ms-transform: scale(1.03);
 }
+.hu-dtls-video-play-cntlr:hover img{
+	transform: scale(1.3);
+	-webkit-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+}
 
+.fl-account-page-entry-hdr a i{
+	position: relative;
+}
 
 /**
 All Hovers

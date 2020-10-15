@@ -7,9 +7,16 @@
 }
 .product-modal-content-ctlr{
 	padding-top: 100px;
+	
+}
+.modal.fade.show{
 	background: #014993;
 }
-
+.asf-modal-cnltr .modal-content{
+	background: transparent;
+	border: none;
+	box-shadow: none;
+}
 
 .product-modal-content{
 	background: #fff!important;
@@ -40,6 +47,7 @@
 	line-height: 1;
 	margin-bottom: 0;
 	color: #fff;
+	padding-right: 10px;
 }
 .product-modal-des{
 	padding: 45px 35px 25px 40px;
