@@ -149,9 +149,15 @@
 	-webkit-transition: all 0.5s;
 	z-index: 1;
 }
+.mobile-hdr{
+	left: 0;
+}
 .page-banner:hover .page-bnr-btm-rt-animt-icon{
 	right: -20px;
 	bottom: -20px;
+}
+.mobile-hdr-innr{
+	position: relative;
 }
 
 /*page banner*/

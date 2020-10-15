@@ -288,11 +288,7 @@ $(window).scroll(function(){
   if (scroll >= 300) $('body').addClass('hasSticky');
   else $('body').removeClass('hasSticky');
 });
-/*----- end of Noyon -----*/
 
-
-
-/*----- end of Shariful -----*/
 
 /*
 -----------------------
@@ -375,11 +371,70 @@ if( $('.relevant-evnt-slider').length ){
     });
 }
 
-/*----- end of Milon -----*/
 
 
 
+//var allPanels = $('.pro-page-bnr-slide').hide();
+
+
+/*  
+var indexer = 0;
+var animateInterval;
+
+function animate(){
+        if(indexer == 0){
+            $(".slide-1").hide(500);
+            $(".slide-3").show(500);
+        }
+        else if(indexer == 1){
+            $(".slide-1").hide(500);
+            $(".slide-2").show(500);
+        }
+        else if(indexer == 2){
+            $(".slide-2").hide(500);
+            $(".slide-3").show(500);
+        }
+        if(indexer == 2) indexer = 0;
+        else indexer++;
+    }
+
+    animateInterval = setInterval(animate, 10000);
+    
+$('.pro-page-bnr-con-changer-btn').on('click', function(){
+    animate();
+});*/
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("pro-page-bnr-slide");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";  
+}
+
+$('.pro-page-bnr-con-changer-btn').on('click', function(){
+    showSlides();
+});
 
     new WOW().init();
 
 })(jQuery);
+
+
+$(document).ready(function() {  
+         
+    });  
