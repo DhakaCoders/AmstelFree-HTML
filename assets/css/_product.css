@@ -180,6 +180,7 @@
 	border-radius: 100% 100%;
 	align-items: center;
 	justify-content: center;
+	display: flex;
 }
 .pro-page-bnr-down-btn a:hover i svg{
 	fill: #000!important;
