@@ -7,6 +7,11 @@ a,input,img,textarea,button,svg,i,.pro-page-bnr-con-changer-btn{
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 }
+.ftr-socials-media ul li a i{
+		transition: all 0.1s;
+	-ms-transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
 .relevant-evnt-slide-item-img-cntlr:hover .relevant-evnt-slide-item-img,
 .scale{
 	transform: scale(1.1);
@@ -32,6 +37,7 @@ a,input,img,textarea,button,svg,i,.pro-page-bnr-con-changer-btn{
 	-webkit-transform: scale(1.03);
 	-ms-transform: scale(1.03);
 }
+
 
 /**
 All Hovers
