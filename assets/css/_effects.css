@@ -2,7 +2,8 @@
 All Transitions
 */
 .relevant-evnt-slide-item-img-cntlr:hover .relevant-evnt-slide-item-img,
-a,input,img,textarea,button,svg,i,.pro-page-bnr-con-changer-btn{
+a,input,img,textarea,button,svg,i,.pro-page-bnr-con-changer-btn,
+.afrp-grid-loadmore-btn a:after{
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
@@ -70,4 +71,22 @@ nav.main-nav ul li.current-menu-item a{
 
 .product-grd-item:hover .product-grd-item-des a{
 	margin-left: 10px;
+}
+.running-list-btn a:hover{
+	border-color:#BCA279!important; 
+	color: #BCA279;
+}
+
+
+.running-list-btn a i{
+	transition: all 0.1s;
+	-ms-transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.afrp-grid-loadmore-btn a:hover{
+	color: #BCA279;
+}
+.afrp-grid-loadmore-btn a:hover:after{
+	background: #BCA279;
 }

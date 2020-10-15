@@ -11,6 +11,29 @@
 	border-radius: 20px;
 	background: #004C9B;
 	color: #fff;
+	font-size: 14px;
+}
+.ui-corner-all{
+	background-image: none!important;
+}
+
+.ui-datepicker-next.ui-corner-all,
+.ui-datepicker-prev.ui-corner-all{
+	background-color: #004C9B!important;
+	color: #fff!important;
+	
+}
+.ui-datepicker-prev.ui-corner-all{
+	background-image: url(../images/prev-arrow-hover.png)!important;
+	background-size: 20px auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.ui-datepicker-next.ui-corner-all{
+	background-image: url(../images/next-arrow-hover.png)!important;
+	background-size: 20px auto;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 .rng-items-list-sm-btn i{
 	position: absolute;
