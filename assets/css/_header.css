@@ -123,7 +123,7 @@
     transform: initial;
 }
 .fixed-hdr .logo a{
-	max-width: 66px;
+	max-width: 110px;
 }
 .fixed-hdr .humbergar-cntlr:after{
 	content: none!important;

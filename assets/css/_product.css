@@ -14,7 +14,7 @@
 }
 .pro-page-bnr-lft-col,
 .pro-page-bnr-rgt-col{
-	padding-top: 95px;
+	padding-top: 105px;
 }
 .ppbs-top-lft-mask{
 	position: absolute;
@@ -142,7 +142,7 @@
 	font-size: 61px;
 	line-height: 1;
 	text-transform: uppercase;
-	margin: 0 0 27px 0;
+	margin: 0 0 20px 0;
 	text-shadow: 0 4px 6px #184074;
 }
 .pro-page-bnr-down-btn{
@@ -213,7 +213,7 @@
 	bottom: 0;
 	padding-left: 50px;
 	padding-bottom: 40px;
-	padding-right: 150px;
+	padding-right: 190px;
 }
 
 .product-grd-item-des a{
@@ -244,7 +244,7 @@
 .product-grd-item-des-rgt-img{
 	position: absolute;
 	bottom: 0px;
-	right: 0px;
+	right: 20px;
 }
 
 .product-grd-item-ctlr{
@@ -271,11 +271,7 @@
 	position: relative;
 	overflow: hidden;
 }
-.product-information-sec-ctlr:hover .pro-info-left-img{
-	transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-}
+
 .pro-info-left-img{
 	position: absolute;
 	right: 0;
@@ -287,23 +283,20 @@
 }
 
 .pro-info{
-	max-width: 850px;
+	max-width: 900px;
 	width: 100%;
 	margin: 0 auto;
 	position: relative;
 	z-index: 12;
-	padding-left: 20px;
 }
-
-.pro-info-left{
+.pro-info-left,
+.pro-info-rgt{
+	padding-left: 40px;
+	padding-right: 40px;
 	float: left;
 	width: 50%;
-	padding-right: 40px;
 }
-.pro-info-rgt{
-	float: right;
-	width: 50%;
-}
+
 
 .pro-info-left-title,
 .pro-info-rgt-title{
@@ -323,6 +316,7 @@
 }
 .pro-info-left-title span{
 	font-family: 'TheSansAmstel-Plain';
+	font-size: 17px;
 }
 
 .pro-info-left > ul{
@@ -411,7 +405,7 @@
 .pro-info-rgt ul li strong{
 	font-size: 16px;
 	color: #004C9B;
-	font-weight: 700;
+	font-family: 'TheSansAmstel-Bold';
 }
 
 

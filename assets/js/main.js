@@ -247,8 +247,6 @@ if( $('.datepicker').length ){
   $('.datepicker').datepicker();
 }
 
-/*----- end of Rannojit -----*/
-
 
   if( $('.mainBnrSlider').length ){
     $('.mainBnrSlider').slick({
@@ -267,27 +265,27 @@ if( $('.datepicker').length ){
 
 
 
-  if (windowWidth <= 4000) {
-    $('.humbergar-icon').on('click', function(e){
-      $('.mobile-hdr').addClass('opacity-1');
-      $('.bdoverlay').addClass('active');
-      $('body').addClass('active-scroll-off');
-      $(this).addClass('active-collapse');
-    });
-    $('.close-btn-icon').on('click', function(e){
-      $('.bdoverlay').removeClass('active');
-      $('.mobile-hdr').removeClass('opacity-1');
-      $('body').removeClass('active-scroll-off');
-    });
-  }
+if (windowWidth <= 4000) {
+  $('.humbergar-icon').on('click', function(e){
+    $('.mobile-hdr').addClass('opacity-1');
+    $('.bdoverlay').addClass('active');
+    $('body').addClass('active-scroll-off');
+    $(this).addClass('active-collapse');
+  });
+  $('.close-btn-icon').on('click', function(e){
+    $('.bdoverlay').removeClass('active');
+    $('.mobile-hdr').removeClass('opacity-1');
+    $('body').removeClass('active-scroll-off');
+  });
+}
 
 
 
-  $(window).scroll(function(){
+$(window).scroll(function(){
   var sticky = $('header.header'),
       scroll = $(window).scrollTop();
 
-  if (scroll >= 100) $('body').addClass('hasSticky');
+  if (scroll >= 300) $('body').addClass('hasSticky');
   else $('body').removeClass('hasSticky');
 });
 /*----- end of Noyon -----*/

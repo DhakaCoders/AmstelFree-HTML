@@ -2,7 +2,7 @@
 All Transitions
 */
 .relevant-evnt-slide-item-img-cntlr:hover .relevant-evnt-slide-item-img,
-a,input,img,textarea,button,svg{
+a,input,img,textarea,button,svg,i,.pro-page-bnr-con-changer-btn{
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
@@ -13,6 +13,24 @@ a,input,img,textarea,button,svg{
 	-ms-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
 	-o-transform: scale(1.1);
+}
+
+.pro-page-bnr-down-btn a:hover i{
+	transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+}
+.ml-bottle i:hover img{
+	transform: scale(1.03);
+	-ms-transform: scale(1.03);
+	-webkit-transform: scale(1.03);
+	-o-transform: scale(1.03);
+}
+.product-information-sec-ctlr:hover .pro-info-left-img{
+	transform: scale(1.03);
+	-webkit-transform: scale(1.03);
+	-ms-transform: scale(1.03);
 }
 
 /**
@@ -30,3 +48,12 @@ nav.main-nav ul li.current-menu-item a{
 	color:#fff;
 }
 
+
+
+.pro-page-bnr-con-changer-btn:hover{
+	opacity: .8;
+}
+
+.product-grd-item:hover .product-grd-item-des a{
+	margin-left: 10px;
+}
