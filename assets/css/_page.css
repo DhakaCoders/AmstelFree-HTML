@@ -183,7 +183,7 @@
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 }
-.main-banner:hover .main-banner-btm-left-icon{
+.main-banner .main-banner-btm-left-icon:hover{
 	bottom: -40px;
 	left: -50px;
 	transform: scale(1.1);
@@ -192,7 +192,7 @@
 	left: -20px;
 	top: -20px;
 }
-.main-banner:hover .page-bnr-btm-rt-animt-icon{
+.main-banner .page-bnr-btm-rt-animt-icon:hover{
 	right: -20px;
 	bottom: -20px;
 

@@ -202,11 +202,19 @@
 .pro-page-bnr-con-changer-btn i{
 	padding-left: 13px;
 }
-.slide-2,
-.slide-3{
+.pro-page-bnr-slide{
 	display: none;
 }
-
+.pro-page-bnr-con-changer-btn{
+	opacity: 0;
+	visibility: hidden;
+	z-index: -99;
+}
+.pro-page-bnr-con-changer-btn.iconActive{
+	opacity: 1;
+	visibility: visible;
+	z-index: 205;
+}
 
 
 /*product grid item*/

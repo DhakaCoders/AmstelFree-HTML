@@ -94,3 +94,13 @@ nav.main-nav ul li.current-menu-item a{
 .pagination-cntlr > ul > li > a.prev:hover{
 	opacity: .5;
 }
+.mainBnrSlider .slick-current .banner-slider-title {
+    -webkit-animation-name: fadeInUpShort;
+    animation-name: fadeInUpShort;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+}

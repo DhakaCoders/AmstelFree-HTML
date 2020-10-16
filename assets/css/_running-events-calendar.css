@@ -13,6 +13,12 @@
 	color: #fff;
 	font-size: 14px;
 }
+.rng-items-list-sm-btn input::placeholder,
+.rng-items-list-sm-btn input:-ms-input-placeholder,
+.rng-items-list-sm-btn input::-ms-input-placeholder{
+	color: #fff!important;
+	opacity: 1;
+}
 .ui-corner-all{
 	background-image: none!important;
 }

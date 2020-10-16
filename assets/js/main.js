@@ -53,24 +53,10 @@ $('.fancybox').fancybox({
 
 }
 
-
-/**
-Responsive on 767px
-*/
-
-// if (windowWidth <= 767) {
-  $('.toggle-btn').on('click', function(){
-    $(this).toggleClass('menu-expend');
-    $('.toggle-bar ul').slideToggle(500);
-  });
-
-
-// }
-
-
-
-// http://codepen.io/norman_pixelkings/pen/NNbqgG
-// https://stackoverflow.com/questions/38686650/slick-slides-on-pagination-hover
+$('.toggle-btn').on('click', function(){
+  $(this).toggleClass('menu-expend');
+  $('.toggle-bar ul').slideToggle(500);
+});
 
 
 /**
@@ -116,9 +102,6 @@ if( $('.responsive-slider').length ){
     });
 }
 
-
-
-
 if( $('#mapID').length ){
 var latitude = $('#mapID').data('latitude');
 var longitude = $('#mapID').data('longitude');
@@ -149,8 +132,6 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 }
 
-
-
 /* BS form Validator*/
 (function() {
   'use strict';
@@ -169,10 +150,6 @@ google.maps.event.addDomListener(window, 'load', initialize);
     });
   }, false);
 })();
-
-
-
-
 
 
 if( $('.racesRunningSlider').length ){
@@ -236,11 +213,6 @@ if( $('.freeAlcoholSlider').length ){
      
     });
 }
-$('.loader-logo-1').fadeIn(100); // will first fade out the loading animation 
-$('.loader-logo-2').fadeIn(200); // will first fade out the loading animation 
-$('.loader-logo-3').fadeIn(300); // will first fade out the loading animation 
-$('#preloader').delay(2050).fadeOut('slow');
-$('body').delay(350).css({'overflow':'visible'});
 
 
 if( $('.datepicker').length ){
@@ -248,38 +220,51 @@ if( $('.datepicker').length ){
 }
 
 
-  if( $('.mainBnrSlider').length ){
-    $('.mainBnrSlider').slick({
-      dots: true,
-      infinite: true,
-      arrows: false,
-      autoplay: true,
-      autoplaySpeed: 2000,
-      speed: 300,
-      slidesToShow: 1,
-      slidesToScroll: 1
-     
-    });
+if( $('.mainBnrSlider').length ){
+  $('.mainBnrSlider').slick({
+    dots: true,
+    infinite: true,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    speed: 700,
+    slidesToShow: 1,
+    slidesToScroll: 1
+   
+  });
 }
-
-
 
 
 if (windowWidth <= 4000) {
   $('.humbergar-icon').on('click', function(e){
     $('.mobile-hdr').addClass('opacity-1');
-    $('.bdoverlay').addClass('active');
+    //$('.bdoverlay').addClass('active');
     $('body').addClass('active-scroll-off');
     $(this).addClass('active-collapse');
   });
   $('.close-btn-icon').on('click', function(e){
-    $('.bdoverlay').removeClass('active');
+    //$('.bdoverlay').removeClass('active');
     $('.mobile-hdr').removeClass('opacity-1');
     $('body').removeClass('active-scroll-off');
   });
 }
 
-
+$('.mn-bnr-scrll-btn a').on('click', function(e){
+  e.preventDefault();
+  var st = $("#hrunning-free").offset().top;
+  var sto = st - 50;
+      $('html, body').animate({
+          scrollTop: sto
+      }, 700);
+});
+$('.pro-page-bnr-down-btn a').on('click', function(e){
+  e.preventDefault();
+  var st = $("#product-grd-sec").offset().top;
+  var sto = st - 70;
+      $('html, body').animate({
+          scrollTop: sto
+      }, 700);
+});
 
 $(window).scroll(function(){
   var sticky = $('header.header'),
@@ -371,46 +356,19 @@ if( $('.relevant-evnt-slider').length ){
     });
 }
 
-
-
-
-
-
 /*pro slider*/
-  
-var indexer = 0;
-var animateInterval;
-
-function animate(){
-        if(indexer == 0){
-            $(".slide-1").hide(500);
-            $(".slide-3").show(500);
-        }
-        else if(indexer == 1){
-            $(".slide-1").hide(500);
-            $(".slide-2").show(500);
-        }
-        else if(indexer == 2){
-            $(".slide-2").hide(500);
-            $(".slide-3").show(500);
-        }
-        if(indexer == 2) indexer = 0;
-        else indexer++;
-    }
-
-    animateInterval = setInterval(animate, 10000);
-    
-$('.pro-page-bnr-con-changer-btn').on('click', function(){
-    animate();
+$('.sls-slide-nav .pro-page-bnr-con-changer-btn').on('click', function(){
+  var datato = $(this).attr('data-to');
+  $('.pro-page-bnr-slide').removeClass('pro-slide-active');
+  $('#'+datato).addClass('pro-slide-active');
+  $('.sls-slide-nav .pro-page-bnr-con-changer-btn').removeClass('iconActive');
+  $('.sls-slide-nav .'+datato).addClass('iconActive');
 });
 
+$(document).ready(function() {
+  setTimeout( function(){ 
+    $('body').addClass('loaded');
+  }  , 2300 );
+});
 
-
-    new WOW().init();
-
-})(jQuery);
-
-
-$(document).ready(function() {  
-         
-    });  
+})(jQuery);  
